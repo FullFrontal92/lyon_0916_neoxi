@@ -1,0 +1,9 @@
+{
+    "name": "wcs/wcsneoxi",
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "require": {
+        "doctrine/orm": "^2.5"
+    }
+}
