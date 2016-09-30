@@ -1,3 +1,5 @@
+<?php
+?>
 
 <!DOCTYPE html>
 	
@@ -29,7 +31,7 @@
 		?>
 
 
-    <?php
+		 <?php
 		include"footer.php"
 		?>
 
