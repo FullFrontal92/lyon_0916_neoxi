@@ -1,0 +1,72 @@
+
+body {
+    font-family: Raleway, sans-serif;
+
+}
+
+#homeimg{
+    background-image: url("images/image_index.jpg");
+    height: 432px;
+    width:100%;
+}
+
+.bloc-texte{
+    height: 200px;
+    width: 450px;
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: 20%;
+    left:55%;
+}
+
+#title {
+    color: #96bd2a;
+
+}
+
+#boutton {
+    background-color: #96bd2a;
+    border: none;
+    color: white;
+    width: 240px;
+    height: 38px;
+    text-align: center;
+    font-size: small;
+}
+
+
+#citation {
+    font-size: 32px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 60px;
+}
+
+#badge, #badge2, #badge3 {
+    margin-top: 70px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.desc {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.grey {
+    background-color: #edeeef;
+    display: inline-block;
+    width: 100%;
+}
+
+.actu{
+    background-color: #edeeef;
+
+}
+#last-news{
+    color: #676863;
+    
+}
