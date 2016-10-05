@@ -18,6 +18,7 @@
 		</style>
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
 		<link rel="stylesheet" media="screen and (max-width: 366px)" type="text/css" href="css/queriesXXs.css">
 		<link rel="stylesheet" media="screen and (max-width: 767px)" type="text/css" href="css/queriesXs.css">
 		<link rel="stylesheet" media="screen and (max-width: 931px)" type="text/css" href="css/queriesMd.css">

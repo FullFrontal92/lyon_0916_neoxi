@@ -29,6 +29,7 @@ h1 a:hover{ /*hover NEOXI*/
     color: rgb(28,36,78);
 }
 .navbar-default .navbar-nav > li > a.actu{ /*bouton actu vert*/
+    background-color: rgba(0,0,0,0);
     font-weight: bold;
     color: rgb(148,191,41);
 }
