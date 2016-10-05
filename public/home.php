@@ -1,8 +1,8 @@
-<div class="container-fluid" id=""> <!-- image entrée accueil et bloc de texte -->
+<div class="container-fluid" > <!-- image entrée accueil et bloc de texte -->
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-lg-12" id="homeimg">
                     <div class="bloc-texte" alt="">
-                        <h3 id="title"">Neoxi</h3>
+                        <h3 id="title">Neoxi</h3>
                         <p style="color:white">Spécialiste en logiciels ERP <br/>
                             Partenaire commercial et technique fiable </p>
                         <input type="button" title="cliquez" value="EN SAVOIR PLUS SUR L'ENTREPRISE" id="boutton">
