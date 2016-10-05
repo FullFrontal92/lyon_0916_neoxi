@@ -1,9 +1,11 @@
 
 <!DOCTYPE html>
 	
+
 <html>
 	<head>
 		<meta charset="utf-8" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<!-- Optional theme -->
@@ -17,13 +19,12 @@
 		</style>
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" media="screen and (max-width: 366px)" type="text/css" href="css/queriesXXs.css">
+		<link rel="stylesheet" media="screen and (max-width: 767px)" type="text/css" href="css/queriesXs.css">
+		<link rel="stylesheet" media="screen and (max-width: 931px)" type="text/css" href="css/queriesMd.css">
 	</head>
 	<body>
    		<?php include"header.php" ?>
-		<div class ="row" style="height: 800px;">
-			<div class="col-xs-12">
-			</div>
-		</div>
     	<?php include"footer.php" ?>
     </body>
 </html>

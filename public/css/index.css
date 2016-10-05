@@ -1,5 +1,7 @@
 *{
     font-family: 'Raleway', sans-serif;
 }
-footer
-{ background-color: red;}
+/*suppression des pointillés autour des blocs sur mozilla*/
+*|*:-moz-any-link:focus {
+    outline: none;
+}
