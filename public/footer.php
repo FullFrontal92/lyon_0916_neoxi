@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" type="text/css" href="footer.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
     <footer>
         <div id="footer">
             <div class="container-fluid">
