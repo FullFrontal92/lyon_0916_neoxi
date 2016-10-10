@@ -9,6 +9,7 @@
     background-image: url("../images/image_index.jpg");
     height: 432px;
     width:100%;
+
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -18,12 +19,11 @@
     height: 200px;
     width: 450px;
     background-color: rgba(0,0,0,0.6);
+    position: relative;
     display: inline-block;
     text-align: center;
-    background-repeat: no-repeat;
     float: right;
-    padding-top: px;
-
+    top: 20%;
 }
 
 #title {
@@ -73,5 +73,9 @@
 }
 #last-news{
     color: #676863;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> c4760c614a5212d3650b32d031c58e29783f1044
 }
