@@ -1,3 +1,4 @@
+/*comportement général*/
 *{
     font-family: 'Raleway', sans-serif;
 }
@@ -5,6 +6,7 @@
 *|*:-moz-any-link:focus {
     outline: none;
 }
+
 body {
     margin-top: 50px;
 }
@@ -12,6 +14,7 @@ body {
 .home {
     margin-top: 0px;
 }
+
 #homeimg{
     background-image: url("../images/image_index.jpg");
     height: 431px;
@@ -32,11 +35,9 @@ body {
     padding-left: 18px;
     margin-right: 50px;
 }
-
 #title {
     color: #96bd2a;
     font-size: 1.9em;
-
 }
 
 #home-button {
@@ -50,7 +51,6 @@ body {
     float: right;
     margin-right: 30px;
 }
-
 
 #citation {
     font-size: 32px;

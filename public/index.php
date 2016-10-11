@@ -1,27 +1,8 @@
-
 <!DOCTYPE html>
 
 <html>
 	<head>
-		<meta charset="utf-8" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<title>Neoxi</title>
-		<!--raleway font-->
-		<style>
-			@import 'https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext';
-		</style>
-		<link rel="stylesheet" type="text/css" href="css/index.css">
-		<link rel="stylesheet" type="text/css" href="css/header.css">
-		<link rel="stylesheet" type="text/css" href="css/footer.css">
-		<link rel="stylesheet" media="screen and (max-width: 366px)" type="text/css" href="css/queriesXXs.css">
-		<link rel="stylesheet" media="screen and (max-width: 767px)" type="text/css" href="css/queriesXs.css">
-		<link rel="stylesheet" media="screen and (max-width: 931px)" type="text/css" href="css/queriesMd.css">
+		<?php include"head.php" ?>
 	</head>
 	<body>
    		<?php include"header.php"?>
@@ -41,19 +22,19 @@
 					un partenaire commercial et technique fiable. </p>
 			</div>
 			<div class="row">
-				<div class="col-xs-4 col-sm-4 col-lg-4" id="badge">
+				<div class="col-xs-12 col-sm-4 col-lg-4" id="badge">
 					<img src="images/objectifs-homePage.png">
 					<h3 class="desc">OBJECTIFS</h3>
 					<p>Renforcer les équipes <br/> des revendeurs de logiciels <br/> de gestion</p>
 				</div>
-				<div class="col-xs-4 col-sm-4 col-lg-4" id="badge2">
+				<div class="col-xs-12 col-sm-4 col-lg-4" id="badge2">
 					<img src="images/homePage-solution.png">
 					<h3 class="desc">SOLUTIONS</h3>
 					<p> Prestation sur mesure <br/>
 						Partenariat de proximité <br/>
 						Flexibilité et savoir-faire</p>
 				</div>
-				<div class="col-xs-4 col-sm-4 col-lg-4" id="badge3">
+				<div class="col-xs-12 col-sm-4 col-lg-4" id="badge3">
 					<img src="images/specialist-homePage.png">
 					<h3 class="desc">SPECIALITÉS</h3>
 					<p>Logiciels de gestions du marché <br/> des P.M.E et M.G.E</p>
@@ -103,8 +84,6 @@
 				</div>
 			</div>
 		</div>
-
-		<?php include"footer.php" ?>
-
+        <?php include"footer.php" ?>
     </body>
 </html>

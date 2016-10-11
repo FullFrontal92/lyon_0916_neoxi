@@ -1,3 +1,8 @@
-.padding-fixed{
+/*on fait descendre le bouton contact en mini format*/
+.menu-fixed{
     display: inline;
+}
+/*on fait disparaitre la vague*/
+.wave{
+    display: none;
 }
