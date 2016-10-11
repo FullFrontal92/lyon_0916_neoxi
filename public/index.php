@@ -4,7 +4,7 @@
 	<head>
 		<?php include"head.php" ?>
 	</head>
-	<body onscroll="test()">
+	<body>
    		<?php include"header.php" ?>
 		<div class="container-fluid" > <!-- image entrée accueil et bloc de texte -->
 			<div class="row">
