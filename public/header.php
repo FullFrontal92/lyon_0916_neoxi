@@ -1,5 +1,5 @@
 <header>
-    <div class="navbar navbar-default navbar-fixed-top role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top">
     <div id="header-container" class="header-background container-fluid" style="padding-top: 0; padding-right: 0;">
         <div class="col-xs-12 navbar-header" style="padding-top: 0; padding-right: 0;">
             <button type="button" class="hamburger navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
