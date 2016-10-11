@@ -61,4 +61,7 @@ h1 a{
     padding: 0;
     margin: 0;
 }
-/*//////*/
+.nav > li > a{
+    text-align: center;
+}
+*/

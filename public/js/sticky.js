@@ -5,7 +5,7 @@ function test(){
     var top = window.pageYOffset;
     var stickyDisplay = document.getElementById('stickyToHide');
     var navMargin = document.getElementById('nav');
-    if (screen.width > 767) {
+    if (screen.width > 990) {
         if (top > 50) {
             stickyDisplay.style.display = "none";
             navMargin.style.marginTop = "0";

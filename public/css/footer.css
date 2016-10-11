@@ -4,16 +4,6 @@
     /* Set the fixed height of the footer here */
     height: 280px;
     background-color: #010101;
-    height: auto;
-
-}
-
-.container-fluid {
-    width: auto;
-    max-width: 100%px;
-    padding-top: 25px;
-    position: relative;
-    text-align: center;
 }
 .container .text-muted {
     margin: 20px 0;
@@ -22,7 +12,6 @@
     font-size: 19px;
     color: white;
     margin-top: 5px;
-
 }
 .mentions{
     margin-top: 0;

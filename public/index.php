@@ -45,7 +45,7 @@
 				<div class="last-news-bloc">
 					<h1 id="last-news">DERNIÈRES ACTUALITÉS</h1>
 				</div>
-				<div class="col-xs-4 col-sm-4 col-lg-4 news" >
+				<div class="col-xs-4 col-sm-4 col-lg-4 news">
 					<img src="images/actu1_home.jpg">
 					<h2>Première actualité</h2>
 					<p>Quae dum ita struuntur, indicatum est

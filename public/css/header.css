@@ -111,3 +111,7 @@ h1 a:hover{
     float: right;
     margin-right: 60px;
 }
+.noPadding-left-right{
+    padding-left: 0;
+    padding-right: 0;
+}
