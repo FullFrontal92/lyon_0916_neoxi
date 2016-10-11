@@ -1,3 +1,4 @@
+/*comportement général*/
 *{
     font-family: 'Raleway', sans-serif;
 }
@@ -5,6 +6,8 @@
 *|*:-moz-any-link:focus {
     outline: none;
 }
+
+/*////////*/
 #homeimg{
     background-image: url("../images/image_index.jpg");
     height: 432px;

@@ -11,7 +11,7 @@
             <div class="row">
                 <div id='stickyToHide' class="align-inline col-xs-4 col-md-4 neoxi-header-title">
                     <img class="sticky-hide header-height" src="images/logo-neo-blue.png"/>
-                    <div class="sticky-hide header-height padding-fixed">
+                    <div class="sticky-hide header-height menu-fixed">
                         <img class="wave" src="images/wave.png">
                         <h1 class="nav">
                             <a href="index.php">
