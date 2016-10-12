@@ -2,8 +2,17 @@
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 280px;
     background-color: #010101;
+    height: 100%;
+    font-size: 0.8em;
+}
+
+.footerFluid {
+    width: auto;
+    max-width: 100%;
+    padding-top: 25px;
+    position: relative;
+    text-align: center;
 }
 .container .text-muted {
     margin: 20px 0;
@@ -13,8 +22,14 @@
     color: white;
     margin-top: 5px;
 }
-.mentions{
-    margin-top: 0;
+.mentions {
+    margin-top: 10px;
     color: white;
-    font-size: 18px;
+    font-size: 13px;
+}
+.imgFooter {
+    height: 40px;
+}
+.classRowFooter {
+    margin-top: 10px;
 }

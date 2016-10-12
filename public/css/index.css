@@ -12,28 +12,32 @@ body {
 }
 
 .home {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 #homeimg{
     background-image: url("../images/image_index.jpg");
     height: 431px;
     width:100%;
+    background-repeat: no-repeat;
     background-size: cover;
+
 }
+
 .bloc-texte{
     height: 219px;
     width: 550px;
     background-color: rgba(0,0,0,0.6);
     position: relative;
-    top: 92px;
+    display: inline-block;
+    text-align: center;
     float: right;
+    top: 92px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.90);
     color: #ffffff;
     font-size: 1.8em;
-    text-align: justify;
     padding-left: 18px;
-    margin-right: 50px;
+    margin-right: 50px
 }
 #title {
     color: #96bd2a;
@@ -125,3 +129,5 @@ body {
     margin-right: 20px;
     margin-top: -70px;
 }
+
+
