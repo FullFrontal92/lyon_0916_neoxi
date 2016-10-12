@@ -45,7 +45,7 @@
 				<div class="last-news-bloc">
 					<h1 id="last-news">DERNIÈRES ACTUALITÉS</h1>
 				</div>
-				<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-lg-4 news" >
+				<div class="col-xs-12 col-sm-4 col-lg-4 col-lg-offset-1 news" >
 					<img src="images/actu1_home.jpg">
 					<h2>Première actualité</h2>
 					<p>Quae dum ita struuntur, indicatum est
@@ -57,7 +57,7 @@
 					<p><img src="images/time-homePage-articles.png"> 30 Septembre 2016</p>
                     <input type="button" title="cliquez" value="Lire la suite" id="news-button">
 				</div>
-				<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-lg-4 news">
+				<div class="col-xs-12 col-sm-4 col-lg-4 col-lg-offset-1 news">
 					<img src="images/actu2_home.jpg">
 					<h2>Deuxième actualité</h2>
 					<p>Quae dum ita struuntur, indicatum est
@@ -70,7 +70,7 @@
                     <input type="button" title="cliquez" value="Lire la suite" id="news-button">
 
 				</div>
-				<div class="col-xs-10 col-sm-4 col-lg-4 news">
+				<div class="col-xs-12 col-sm-4 col-lg-4 col-lg-offset-1 news">
 					<img src="images/actu3_home.jpg">
 					<h2>Troisième actualité</h2>
 					<p>Quae dum ita struuntur, indicatum est
