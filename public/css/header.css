@@ -15,6 +15,14 @@ h1 a:hover{
     text-decoration: none;
     color: rgb(28,36,78);
 }
+/*couleur verte du logo text neoxi*/
+.neoGreen{
+    margin: 0 0 0 -13px; color: rgb(48,132,155);
+}
+/*couleur bleu du logo text neoxi*/
+.neoBlue{
+    margin: 0 0 0 -13px; color: rgb(148,191,41);
+}
 /*propriétés du bouton hover*/
 .button-contact{
     color: rgb(28,36,78);
@@ -110,4 +118,8 @@ h1 a:hover{
 .float-right{
     float: right;
     margin-right: 60px;
+}
+.noPadding-left-right{
+    padding-left: 0;
+    padding-right: 0;
 }
