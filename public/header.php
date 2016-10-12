@@ -33,7 +33,7 @@
                 </div>
                 <div class="float-right no-padding col-xs-12 col-md-4 navbar-collapse collapse">
                     <ul id="nav" class="no-padding margin-nav nav-inline nav navbar-nav">
-                        <li><a href="index.php">LA&nbsp;SOCIÉTÉ</a></li>
+                        <li><a href="société.php">LA&nbsp;SOCIÉTÉ</a></li>
                         <li><a href="notre_expertise.php">EXPERTISE</a></li>
                         <li><a href="nos_engagements.php">ENGAGEMENTS</a></li>
                         <li><a class="actu" href="actu.php">ACTUALITÉS</a></li>
