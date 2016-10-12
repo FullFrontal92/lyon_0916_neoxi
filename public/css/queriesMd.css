@@ -2,3 +2,20 @@
     margin-top: -40px;
     max-height: 40px;
 }
+/* ajustemeent du formulaire */
+.form-group{ /* css pour l'espace qui englobe tout le formulaire */
+    margin-left: 10px;
+    width: 400px;
+
+}
+#com{
+    width: 400px;
+}
+
+.btn-submit{ /* css bloc bouton */
+    margin-right: 0;
+}
+
+#fctxt{ /* css pour le text du bloc formulaire de contact */
+    margin-left: 30px;
+}

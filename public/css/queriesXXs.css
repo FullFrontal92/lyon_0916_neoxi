@@ -1,3 +1,15 @@
 .padding-fixed{
     display: inline;
 }
+.wave{
+    display: none;
+}
+/* ajustemeent du formulaire */
+.form-group{ /* css pour l'espace qui englobe tout le formulaire */
+    margin-left: 10px;
+    width: 150px;
+
+}
+#com{
+    width: 150px;
+}

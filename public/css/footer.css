@@ -6,15 +6,10 @@
     background-color: #010101;
     height: auto;
 
+
 }
 
-.container-fluid {
-    width: auto;
-    max-width: 100%px;
-    padding-top: 25px;
-    position: relative;
-    text-align: center;
-}
+
 .container .text-muted {
     margin: 20px 0;
 }
