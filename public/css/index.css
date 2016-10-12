@@ -25,10 +25,8 @@
     float: right;
     top: 20%;
 }
-
 #title {
     color: #96bd2a;
-
 }
 
 #boutton {
@@ -40,7 +38,6 @@
     text-align: center;
     font-size: small;
 }
-
 
 #citation {
     font-size: 32px;
@@ -73,9 +70,6 @@
 }
 #last-news{
     color: #676863;
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> c4760c614a5212d3650b32d031c58e29783f1044
 }
+
+
