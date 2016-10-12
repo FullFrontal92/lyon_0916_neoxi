@@ -1,4 +1,4 @@
-/*correction spécifique pour le header*/
+/*correction spécifique pour le header (pour le hamburger en format md)*/
 .navbar-collapse.collapse {
     display: block !important;
     height: auto !important;
@@ -51,6 +51,8 @@
     width: 100%;
     text-align: center;
 }
+
+
 
 
 

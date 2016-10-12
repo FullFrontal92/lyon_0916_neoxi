@@ -9,18 +9,19 @@
                 <span class="icon-bar"></span>
             </button>
             <div class="row">
-                <div id='stickyToHide' class="align-inline col-xs-2 col-sm-2 neoxi-header-title">
+                <div id='stickyToHide' class="align-inline col-xs-8 col-md-2 neoxi-header-title">
                     <img class="header-height" src="images/logo-neo-blue.png"/>
                     <div class="header-height menu-fixed">
                         <img class="wave" src="images/wave.png">
                         <h1 class="nav">
                             <a href="index.php">
                                 <div class="block-neoxi">
-                                    <span style="margin: 0; margin-left: -13px; color: rgb(48,132,155)">ne</span>
-                                    <span style="margin-left: -13px; color: rgb(148,191,41);">o</span>
-                                    <span style="margin-left: -13px; color: rgb(48,132,155)">xi</span>
+                                    <span class="neoGreen">ne</span>
+                                    <span class="neoBlue">o</span>
+                                    <span class="neoGreen">xi</span>
                                 </div>
-                            </a></h1>
+                            </a>
+                        </h1>
                         <a class="button-contact" href="contact.php">CONTACT</a>
                     </div>
                 </div>
