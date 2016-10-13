@@ -5,6 +5,24 @@
     padding-bottom: 0;
     overflow: visible !important;
 }
+
+/* ajustemeent du formulaire */
+.form-group{ /* css pour l'espace qui englobe tout le formulaire */
+    margin-left: 10px;
+    width: 400px;
+
+}
+#com{
+    width: 400px;
+}
+
+.btn-submit{ /* css bloc bouton */
+    margin-right: 0;
+}
+
+#fctxt{ /* css pour le text du bloc formulaire de contact */
+    margin-left: 30px;
+}
 .collapse.in {
     display: block;
 }
@@ -51,24 +69,6 @@
     width: 100%;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*pour le header*/
 
@@ -134,3 +134,4 @@ h1 a{
     margin: 0;
 }
 /*//////*/
+

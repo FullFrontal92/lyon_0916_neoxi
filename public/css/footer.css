@@ -3,6 +3,7 @@
     width: 100%;
     /* Set the fixed height of the footer here */
     background-color: #010101;
+    height: auto;
     height: 100%;
     font-size: 0.8em;
 }
@@ -14,6 +15,8 @@
     position: relative;
     text-align: center;
 }
+
+
 .container .text-muted {
     margin: 20px 0;
 }
