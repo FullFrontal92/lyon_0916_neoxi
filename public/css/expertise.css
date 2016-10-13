@@ -1,25 +1,36 @@
-.exp{
-    margin-top: 100px;
-    min-height:250px;
-    background-color: #529BAC;
+#imgexp{ /* background img */
+    background-image: url("../images/imgexp.jpg");
+    height: 431px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
-#ourexp{
+#ourexp{ /* txt dans le box shadow */
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
+    text-align: left;
+}
+
+.bigtxt{ /*txt dans les p */
+    text-align: left;
+    color: #96BC28;
+}
+
+.txttojust{ /* txt à justifier*/
+    text-align: justify;
+}
+
+
+.domexp{ /* le 1er conteneur */
+    margin-top: 100px;
     text-align: center;
 }
 
-.domexp{
-    margin-top: 50px;
+.domexp2{ /* le second conteneur */
     text-align: center;
-    height: 200px;
-    background-color: #96bd2a;
-}
-
-.domexp2{
-    text-align: center;
-    height: 200px;
-    background-color: #676863;
+    margin-top: 70px;
+    margin-bottom: 100px;
 }
