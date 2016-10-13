@@ -49,8 +49,7 @@
                 </div>
                 <br>
                 <div class="form-group">
-                            <textarea class="form-control" placeholder="VOTRE MESSAGE" id="com">
-                                </textarea>
+                    <textarea class="form-control" placeholder="VOTRE MESSAGE" id="com"></textarea>
                     <button type="submit" class="btn btn-submit">ENVOYER</button>
                 </div>
 
