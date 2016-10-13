@@ -14,7 +14,7 @@
 						<h2 id="title">NEOXI</h2>
 						<p>Spécialiste en logiciels ERP <br/>
 							Partenaire commercial et technique fiable </p>
-						<input type="button" title="cliquez" value="EN SAVOIR PLUS" id="home-button">
+						<a href="société.php"><input type="button" title="cliquez" value="EN SAVOIR PLUS" id="home-button"> </a>
 					</div>
 				</div>
 			</div>
@@ -41,6 +41,7 @@
 					<p>Logiciels de gestions du marché <br/> des P.M.E et M.G.E</p>
 				</div>
 			</div>
+
 			<div class="container-fluid">
 				<div class="row bloc2">
 					<div class="last-news-bloc">
