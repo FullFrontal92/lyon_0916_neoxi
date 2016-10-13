@@ -35,54 +35,74 @@
 						Partenariat de proximité <br/>
 						Flexibilité et savoir-faire</p>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-lg-4" id="badge3">
+				<div class="col-xs-12 col-sm-12 col-lg-4" id="badge3">
 					<img src="images/specialist-homePage.png">
 					<h3 class="desc">SPECIALITÉS</h3>
 					<p>Logiciels de gestions du marché <br/> des P.M.E et M.G.E</p>
 				</div>
 			</div>
-
-			<div class="row bloc2">
-				<div class="last-news-bloc">
-					<h1 id="last-news">DERNIÈRES ACTUALITÉS</h1>
-				</div>
-
-				<div class="col-xs-12 col-sm-4 col-lg-4 col-lg-offset-1 news" >
-					<img src="images/actu1_home.jpg">
-					<h2>Première actualité</h2>
-					<p>Quae dum ita struuntur, indicatum est
-						apud Tyrum indumentum regale textum
-						occulte,incertum quo locante vel cuius
-						usibus apparatum. ideoque rector provinci
-						tunc pater Apollinaris eiusdem nominis ut
-						conscius [...]</p>
-					<p><img src="images/time-homePage-articles.png"> 30 Septembre 2016</p>
-                    <input type="button" title="cliquez" value="Lire la suite" id="news-button">
-				</div>
-				<div class="col-xs-12 col-sm-4 col-lg-4 col-lg-offset-1 news">
-					<img src="images/actu2_home.jpg">
-					<h2>Deuxième actualité</h2>
-					<p>Quae dum ita struuntur, indicatum est
-						apud Tyrum indumentum regale textum
-						occulte,incertum quo locante vel cuius
-						usibus apparatum. ideoque rector provinci
-						tunc pater Apollinaris eiusdem nominis ut
-						conscius [...]</p>
-					<p><img src="images/time-homePage-articles.png"> 30 Octobre 2016</p>
-                    <input type="button" title="cliquez" value="Lire la suite" id="news-button">
-
-				</div>
-				<div class="col-xs-12 col-sm-4 col-lg-4 col-lg-offset-1 news">
-					<img src="images/actu3_home.jpg">
-					<h2>Troisième actualité</h2>
-					<p>Quae dum ita struuntur, indicatum est
-						apud Tyrum indumentum regale textum
-						occulte,incertum quo locante vel cuius
-						usibus apparatum. ideoque rector provinci
-						tunc pater Apollinaris eiusdem nominis ut
-						conscius [...]</p>
-					<p><img src="images/time-homePage-articles.png"> 30 Novembre 2016</p>
-                    <input type="button" title="cliquez" value="Lire la suite" id="news-button">
+			<div class="container-fluid">
+				<div class="row bloc2">
+					<div class="last-news-bloc">
+						<h1 id="last-news">DERNIÈRES ACTUALITÉS</h1>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" >
+						<div class="padding-actu news">
+							<img class="news-img" src="images/actu1_home.jpg">
+							<div class="text-actu">
+								<h2>Première actualité</h2>
+								<p>Quae dum ita struuntur, indicatum est
+									apud Tyrum indumentum regale textum
+									occulte,incertum quo locante vel cuius
+									usibus apparatum. ideoque rector provinci
+									tunc pater Apollinaris eiusdem nominis ut
+									conscius [...]</p>
+								<p>
+									<img src="images/time-homePage-articles.png">
+									30 Septembre 2016
+								</p>
+								<input type="button" title="cliquez" value="Lire la suite" id="news-button">
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" >
+						<div class="padding-actu news">
+							<img class="news-img" src="images/actu2_home.jpg">
+							<div class="text-actu">
+								<h2>Première actualité</h2>
+								<p>Quae dum ita struuntur, indicatum est
+									apud Tyrum indumentum regale textum
+									occulte,incertum quo locante vel cuius
+									usibus apparatum. ideoque rector provinci
+									tunc pater Apollinaris eiusdem nominis ut
+									conscius [...]</p>
+								<p>
+									<img src="images/time-homePage-articles.png">
+									30 Septembre 2016
+								</p>
+								<input type="button" title="cliquez" value="Lire la suite" id="news-button">
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" >
+						<div class="padding-actu news">
+							<img class="news-img" src="images/actu3_home.jpg">
+							<div class="text-actu">
+								<h2>Première actualité</h2>
+								<p>Quae dum ita struuntur, indicatum est
+									apud Tyrum indumentum regale textum
+									occulte,incertum quo locante vel cuius
+									usibus apparatum. ideoque rector provinci
+									tunc pater Apollinaris eiusdem nominis ut
+									conscius [...]</p>
+								<p>
+									<img src="images/time-homePage-articles.png">
+									30 Septembre 2016
+								</p>
+								<input type="button" title="cliquez" value="Lire la suite" id="news-button">
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

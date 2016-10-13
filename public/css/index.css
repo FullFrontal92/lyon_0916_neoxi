@@ -10,17 +10,12 @@
     font-family: Tahoma;
 }
 
-
 body {
     margin-top: 50px;
 }
-
-
 .home {
     margin-top: 0;
 }
-
-
 #homeimg{
     background-image: url("../images/image_index.jpg");
     height: 431px;
@@ -80,7 +75,6 @@ body {
     font-weight: bold;
     font-size: 28px;
 }
-
 .last-news-bloc {
     display: inline-block;
     width: 100%;
@@ -91,17 +85,11 @@ body {
     height: 100%;
     background-color: #edeeef;
     margin-top: 60px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .news{
-    height: 563px;
-    width: 327px;
     border: 1px solid #b4b4b4;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    text-align: justify;
-    display: block;
-    padding: 0;
 }
 #last-news{
     color: #676863;
@@ -109,21 +97,15 @@ body {
     margin-top: 58px;
     margin-left: 62px;
 }
-
-.news img {
-    max-width: 100%;
-    max-height: 100%;
+.news-img{
+    width: 100%;
 }
-
-.news p {
-    height: 135px;
-    padding: 18px;
-}
-
-.news h2 {
-    font-size: 1.7em;
-    padding: 18px;
-    margin: 0;
+.text-actu{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
 }
 
 #news-button {
@@ -133,35 +115,13 @@ body {
     border-style: none;
     border-radius: 20px;
     float: right;
-    margin-right: 20px;
-    margin-top: -70px;
+}
+.padding-actu{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 
-/* Version mobile */
-
-@media screen and (max-width: 768px) {
-    .bloc-texte{
-        font-size: 16px;
-        height: 150px;
-        width: 350px;
-    }
-    #home-button {
-        display: none;
-    }
-    .last-news-bloc {
-        height: 10px;
-    }
-    h1#last-news {
-        font-size: 2.5em;
-        margin: 0 auto;
-        margin-top: 30px;
-        text-align: center;
-    }
-    .news {
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-}
 
