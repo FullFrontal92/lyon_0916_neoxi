@@ -14,7 +14,6 @@
 						- Sur la gamme Ligne 100 i7 de l’éditeur Sage. <br/>
 						- Sur les produits de l’Editeur Arcadie informatique. <br/>
 						- Et sur les développements spécifiques dans le périmètre de Sage Ligne 100.</p>
-						<input type="button" title="cliquez" value="EN SAVOIR PLUS" id="home-button">
 					</div>
 				</div>
 			</div>

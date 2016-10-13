@@ -14,7 +14,7 @@
 						<h2 id="title">NEOXI</h2>
 						<p>Spécialiste en logiciels ERP <br/>
 							Partenaire commercial et technique fiable </p>
-						<input type="button" title="cliquez" value="EN SAVOIR PLUS" id="home-button">
+						<a href="société.php"><input type="button" title="cliquez" value="EN SAVOIR PLUS" id="home-button"> </a>
 					</div>
 				</div>
 			</div>
@@ -57,7 +57,7 @@
 						tunc pater Apollinaris eiusdem nominis ut
 						conscius [...]</p>
 					<p><img src="images/time-homePage-articles.png"> 30 Septembre 2016</p>
-                    <input type="button" title="cliquez" value="Lire la suite" id="news-button">
+					<a href="actu.php"><input type="button" title="cliquez" value="Lire la suite" id="news-button"> </a>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-lg-4 col-lg-offset-1 news">
 					<img src="images/actu2_home.jpg">
@@ -69,7 +69,7 @@
 						tunc pater Apollinaris eiusdem nominis ut
 						conscius [...]</p>
 					<p><img src="images/time-homePage-articles.png"> 30 Octobre 2016</p>
-                    <input type="button" title="cliquez" value="Lire la suite" id="news-button">
+					<a href="actu.php"><input type="button" title="cliquez" value="Lire la suite" id="news-button"> </a>
 
 				</div>
 				<div class="col-xs-12 col-sm-4 col-lg-4 col-lg-offset-1 news">
@@ -82,7 +82,7 @@
 						tunc pater Apollinaris eiusdem nominis ut
 						conscius [...]</p>
 					<p><img src="images/time-homePage-articles.png"> 30 Novembre 2016</p>
-                    <input type="button" title="cliquez" value="Lire la suite" id="news-button">
+					<a href="actu.php"><input type="button" title="cliquez" value="Lire la suite" id="news-button"> </a>
 				</div>
 			</div>
 		</div>
