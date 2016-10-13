@@ -4,6 +4,7 @@
 		<?php include"head.php" ?>
 	</head>
 	<body>
+		<?php include"getUp.php" ?>
 		<?php include"header.php" ?>
 		<?php include"footer.php" ?>
 	</body>

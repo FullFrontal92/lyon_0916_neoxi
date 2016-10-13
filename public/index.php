@@ -14,7 +14,7 @@
 						<h2 id="title">NEOXI</h2>
 						<p>Spécialiste en logiciels ERP <br/>
 							Partenaire commercial et technique fiable </p>
-						<a href="société.php"><input type="button" title="cliquez" value="EN SAVOIR PLUS" id="home-button"> </a>
+						<a href="societe.php"><input type="button" title="cliquez" value="EN SAVOIR PLUS" id="home-button"> </a>
 					</div>
 				</div>
 			</div>
@@ -35,7 +35,7 @@
 						Partenariat de proximité <br/>
 						Flexibilité et savoir-faire</p>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-lg-4" id="badge3">
+				<div class="col-xs-12 col-sm-4 col-lg-4" id="badge3">
 					<img src="images/specialist-homePage.png">
 					<h3 class="desc">SPECIALITÉS</h3>
 					<p>Logiciels de gestions du marché <br/> des P.M.E et M.G.E</p>
@@ -62,7 +62,7 @@
 									<img src="images/time-homePage-articles.png">
 									30 Septembre 2016
 								</p>
-								<input type="button" title="cliquez" value="Lire la suite" id="news-button">
+								<a href="actu.php"><input type="button" title="cliquez" value="Lire la suite" class="news-button"></a>
 							</div>
 						</div>
 					</div>
@@ -81,11 +81,11 @@
 									<img src="images/time-homePage-articles.png">
 									30 Septembre 2016
 								</p>
-								<input type="button" title="cliquez" value="Lire la suite" id="news-button">
+								<a href="actu.php"><input type="button" title="cliquez" value="Lire la suite" class="news-button"></a>
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" >
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" >
 						<div class="padding-actu news">
 							<img class="news-img" src="images/actu3_home.jpg">
 							<div class="text-actu">
@@ -100,13 +100,14 @@
 									<img src="images/time-homePage-articles.png">
 									30 Septembre 2016
 								</p>
-								<input type="button" title="cliquez" value="Lire la suite" id="news-button">
+								<a href="actu.php"><input type="button" title="cliquez" value="Lire la suite" class="news-button"></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<?php include"getUp.php" ?>
         <?php include"footer.php" ?>
     </body>
 

@@ -73,19 +73,14 @@
 /*pour le header*/
 
 /* taille et couleur de la typo neoxi en format mobile*/
-h1 a{
-    font-size: 40px;
+/*h1 a{
+   font-size: 40px;
     color: rgb(148,191,41);
-}
+}*/
 /*taille du header en format mobile*/
-.header-height{
+/*.header-height{
     height: 80px;
-}
-/*ajustement du padding et marge en format mobile*/
-.menu-fixed{
-    padding-top: 0;
-    margin-top: -2px;
-}
+}*/
 /*taille et position du hamburger*/
 .hamburger{
     margin-top: 20px;
@@ -98,11 +93,11 @@ h1 a{
     margin-top: 34px;
 }
 /*modification du format de la wave en format mobile*/
-.wave{
-    margin-left: -15px;
+/*.wave{
+    margin-left: -35px;
     top: 60px;
     width: 150px;
-}
+}*/
 /*modification du comportement de la navbar en format mobile*/
 .nav-inline{
     display: inline;
