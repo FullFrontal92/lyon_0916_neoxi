@@ -18,7 +18,7 @@
     margin-top: 50px;
 }
 
-.responsive-map{
+.responsive-map{ /* map google a rendre responsive */
     display: flex;
     justify-content: center;
     padding: 0;
@@ -90,7 +90,7 @@
     font-size: 25px;
 
 }
-.form{
+.form{ /* dernier conteneur fluid */
     margin-bottom: 132px;
 }
 
