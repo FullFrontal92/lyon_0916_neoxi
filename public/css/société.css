@@ -1,3 +1,36 @@
 .greyBox {
-
+font-size: 15px;
+}
+#homeimg {
+    background-image: url("../images/comptabilité1.jpg");
+    height: 431px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title {
+    color: #96bd2a;
+    font-size: 1.9em;
+}
+.titleSociety {
+    color: dimgrey;
+    text-align: center;
+}
+.firstImg {
+    height: 200px;
+}
+.firstText {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.society {
+    color: black;
+    font-size: 20px;
+}
+.firstRow {
+    padding-top: 50px;
+}
+.marginInter {
+    padding-top: 20px;
 }
