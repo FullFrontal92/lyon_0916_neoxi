@@ -23,6 +23,6 @@
 <link rel="stylesheet" type="text/css" href="css/actu.css">
 <link rel="stylesheet" type="text/css" href="css/société.css">
 
-<link rel="stylesheet" media="screen and (max-width: 420px)" type="text/css" href="css/queriesXXs.css">
+<link rel="stylesheet" media="screen and (max-width: 492px)" type="text/css" href="css/queriesXXs.css">
 <link rel="stylesheet" media="screen and (max-width: 767px)" type="text/css" href="css/queriesXs.css">
 <link rel="stylesheet" media="screen and (max-width: 991px)" type="text/css" href="css/queriesMd.css">
