@@ -6,7 +6,7 @@
                     <div class="col-md-4">
                             <img src="images/contact-footer.png" class="imgFooter" alt="">
                                 <br>
-                            <h2 class="footertext">Nous contactez</h2>
+                            <h2 class="footertext">Nous contacter</h2>
                                 <br/>
                     </div>
                     <div class="col-md-4">
