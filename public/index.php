@@ -4,6 +4,7 @@
 	<head>
 		<?php include"head.php" ?>
 	</head>
+
 	<body>
    		<?php include"header.php"?>
 		<div class="container-fluid home" > <!-- home page image and text bloc -->
@@ -87,4 +88,5 @@
 		</div>
         <?php include"footer.php" ?>
     </body>
+
 </html>

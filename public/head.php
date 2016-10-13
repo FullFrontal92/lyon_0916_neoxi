@@ -15,9 +15,14 @@
 <link rel="stylesheet" type="text/css" href="css/index.css">
 <link rel="stylesheet" type="text/css" href="css/header.css">
 <link rel="stylesheet" type="text/css" href="css/footer.css">
+
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+<link rel="stylesheet" type="text/css" href="css/expertise.css">
+
 <link rel="stylesheet" type="text/css" href="css/logiciels.css">
 <link rel="stylesheet" type="text/css" href="css/actu.css">
 <link rel="stylesheet" type="text/css" href="css/société.css">
+
 <link rel="stylesheet" media="screen and (max-width: 366px)" type="text/css" href="css/queriesXXs.css">
 <link rel="stylesheet" media="screen and (max-width: 767px)" type="text/css" href="css/queriesXs.css">
 <link rel="stylesheet" media="screen and (max-width: 991px)" type="text/css" href="css/queriesMd.css">

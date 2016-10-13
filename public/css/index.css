@@ -6,6 +6,10 @@
 *|*:-moz-any-link:focus {
     outline: none;
 }
+.num{
+    font-family: Tahoma;
+}
+
 
 body {
     margin-top: 50px;
