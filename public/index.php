@@ -10,7 +10,7 @@
 		<div class="container-fluid home" > <!-- home page image and text bloc -->
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-lg-12" id="homeimg">
-					<div class="bloc-texte" alt="">
+					<div class="bloc-texte" id="text-description">
 						<h2 id="title">NEOXI</h2>
 						<p>Spécialiste en logiciels ERP <br/>
 							Partenaire commercial et technique fiable </p>
@@ -46,7 +46,8 @@
 				<div class="last-news-bloc">
 					<h1 id="last-news">DERNIÈRES ACTUALITÉS</h1>
 				</div>
-				<div class="col-xs-4 col-sm-4 col-lg-4 news">
+
+				<div class="col-xs-12 col-sm-4 col-lg-4 col-lg-offset-1 news" >
 					<img src="images/actu1_home.jpg">
 					<h2>Première actualité</h2>
 					<p>Quae dum ita struuntur, indicatum est
@@ -58,7 +59,7 @@
 					<p><img src="images/time-homePage-articles.png"> 30 Septembre 2016</p>
                     <input type="button" title="cliquez" value="Lire la suite" id="news-button">
 				</div>
-				<div class="col-xs-4 col-sm-4 col-lg-4 news">
+				<div class="col-xs-12 col-sm-4 col-lg-4 col-lg-offset-1 news">
 					<img src="images/actu2_home.jpg">
 					<h2>Deuxième actualité</h2>
 					<p>Quae dum ita struuntur, indicatum est
@@ -71,7 +72,7 @@
                     <input type="button" title="cliquez" value="Lire la suite" id="news-button">
 
 				</div>
-				<div class="col-xs-4 col-sm-4 col-lg-4 news">
+				<div class="col-xs-12 col-sm-4 col-lg-4 col-lg-offset-1 news">
 					<img src="images/actu3_home.jpg">
 					<h2>Troisième actualité</h2>
 					<p>Quae dum ita struuntur, indicatum est

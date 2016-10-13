@@ -15,9 +15,11 @@ body {
     margin-top: 50px;
 }
 
+
 .home {
     margin-top: 0;
 }
+
 
 #homeimg{
     background-image: url("../images/image_index.jpg");
@@ -42,6 +44,7 @@ body {
     padding-left: 18px;
     margin-right: 50px
 }
+
 #title {
     color: #96bd2a;
     font-size: 1.9em;
@@ -85,7 +88,7 @@ body {
     text-align: left;
 }
 .bloc2 {
-    height: 832px;
+    height: 100%;
     background-color: #edeeef;
     margin-top: 60px;
 }
@@ -93,15 +96,16 @@ body {
     height: 563px;
     width: 327px;
     border: 1px solid #b4b4b4;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
     text-align: justify;
     display: block;
     padding: 0;
 }
 #last-news{
     color: #676863;
-    font-size: 5em;
+    font-size: 3.5em;
     margin-top: 58px;
     margin-left: 62px;
 }
@@ -133,4 +137,31 @@ body {
     margin-top: -70px;
 }
 
+
+/* Version mobile */
+
+@media screen and (max-width: 768px) {
+    .bloc-texte{
+        font-size: 16px;
+        height: 150px;
+        width: 350px;
+    }
+    #home-button {
+        display: none;
+    }
+    .last-news-bloc {
+        height: 10px;
+    }
+    h1#last-news {
+        font-size: 2.5em;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .news {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
 

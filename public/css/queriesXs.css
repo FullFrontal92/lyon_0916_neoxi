@@ -10,6 +10,7 @@
     font-size: 40px;
 }
 
+
 .no-padding{
     padding: 0;
     margin: 0;
@@ -24,7 +25,10 @@
 #com{
     width: 300px;
 }
+/*//////*/
+
 
 .imgDev{
     height: 200px;
 }
+
