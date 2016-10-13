@@ -1,7 +1,7 @@
 .greyBox {
 font-size: 15px;
 }
-#homeimg {
+#societyImg {
     background-image: url("../images/comptabilité1.jpg");
     height: 431px;
     width:100%;
@@ -17,12 +17,12 @@ font-size: 15px;
     text-align: center;
 }
 .firstImg {
-    height: 200px;
+    height: 250px;
 }
 .firstText {
     color: black;
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
 }
 .society {
     color: black;
@@ -33,4 +33,36 @@ font-size: 15px;
 }
 .marginInter {
     padding-top: 20px;
+}
+.carrousel {
+    height: 600px;
+    width: 100%;
+    background-color: #edeeef;
+
+}
+@media all and (max-width: 989px){
+        .firstImg {
+            display: none;
+        }
+        .firstText {
+            color: black;
+            font-size: 20px;
+            text-align: justify;
+
+        }
+}
+@media all and (min-width: 989px) and (max-width: 1202px){
+        .querySociety{
+            text-align: center;
+        }
+        .firstImg {
+            display: none;
+        }
+    .firstText {
+        color: black;
+        font-size: 20px;
+        text-align: justify;
+        width: 100%;
+
+    }
 }
