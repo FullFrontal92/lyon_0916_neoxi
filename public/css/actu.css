@@ -14,13 +14,13 @@ body {
     text-align: justify;
     text-justify: inter-word;
 }
-.test{
+.test {
     vertical-align: middle;
     height: 100%;
     overflow: hidden;
     margin-bottom: 20px;
 }
-.height-500{
+.height-500 {
     height: 400px;
 }
 .titleActu {
