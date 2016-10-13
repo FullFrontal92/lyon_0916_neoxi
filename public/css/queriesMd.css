@@ -1,7 +1,11 @@
-.margin-nav{
-    margin-top: -40px;
-    max-height: 40px;
+/*correction spécifique pour le header (pour le hamburger en format md)*/
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
 }
+
 /* ajustemeent du formulaire */
 .form-group{ /* css pour l'espace qui englobe tout le formulaire */
     margin-left: 10px;
@@ -19,3 +23,115 @@
 #fctxt{ /* css pour le text du bloc formulaire de contact */
     margin-left: 30px;
 }
+.collapse.in {
+    display: block;
+}
+.collapse {
+    display: none;
+}
+.navbar-header {
+    float: none;
+}
+.navbar-left,.navbar-right {
+    float: none !important;
+}
+.navbar-toggle {
+    display: block;
+    margin-right: 0;
+}
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+.navbar-collapse.collapse {
+    display: none!important;
+}
+.navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+}
+.navbar-nav>li {
+    float: none;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.collapse.in{
+    display:block !important;
+}
+.float-right{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+/*pour le header*/
+
+/* taille et couleur de la typo neoxi en format mobile*/
+h1 a{
+    font-size: 40px;
+    color: rgb(148,191,41);
+}
+/*taille du header en format mobile*/
+.header-height{
+    height: 80px;
+}
+/*ajustement du padding et marge en format mobile*/
+.menu-fixed{
+    padding-top: 0;
+    margin-top: -2px;
+}
+/*taille et position du hamburger*/
+.hamburger{
+    margin-top: 20px;
+    height: 40px;
+}
+/*bouton contact aparent (en dehors du hamburger) en format mobile*/
+.button-contact{
+    display: inline;
+    margin-left: 15px;
+    margin-top: 34px;
+}
+/*modification du format de la wave en format mobile*/
+.wave{
+    margin-left: -15px;
+    top: 60px;
+    width: 150px;
+}
+/*modification du comportement de la navbar en format mobile*/
+.nav-inline{
+    display: inline;
+}
+/*modification des couleurs et de la taille des liens de la navbar (menu déplié du hamburger)*/
+.navbar-default .navbar-nav > li > a{
+    font-size: 20px;
+    background-color: black;
+    font-weight: normal;
+    color: white;
+}
+/*modification des couleurs et de la taille des liens de la navbar (menu déplié du hamburger)*/
+/*necessaire pour que les modifications soient prisent en compte egalement sur le bouton actu*/
+.navbar-default .navbar-nav > li > a.actu{
+    font-size: 20px;
+    background-color: black;
+    font-weight: normal;
+    color: white;
+}
+/*modification du :hover pour le bouton actu*/
+.navbar-default .navbar-nav > li > a.actu:hover{
+    text-decoration: underline;
+    color: rgb(28,36,78);
+    background-color: rgb(239,239,239);
+}
+/*on supprime le padding et la marge inclue dans bootstrap*/
+.no-padding{
+    padding: 0;
+    margin: 0;
+}
+/*//////*/
+

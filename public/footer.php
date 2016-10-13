@@ -1,26 +1,25 @@
 
-<link rel="stylesheet" type="text/css" href="css/footer.css">
     <footer>
         <div id="footer">
-            <div class="container-fluid">
-                <div class="row">
+            <div class="container-fluid footerFluid">
+                <div class="row classRowFooter" >
                     <div class="col-md-4">
-                            <img src="images/contact-footer.png" class="img-contact" alt="">
+                            <img src="images/contact-footer.png" class="imgFooter" alt="">
                                 <br>
-                            <h2 class="footertext">Accéder au formulaire de contact</h2>
+                            <h2 class="footertext">Nous contactez</h2>
                                 <br/>
                     </div>
                     <div class="col-md-4">
-                        <img src="images/adresse-footer.png" class="img-adresse" alt="">
+                        <img src="images/adresse-footer.png" class="imgFooter" alt="">
                                 <br>
-                            <h2 class="footertext">Nous renconytrer <br/> 31, rue St Simon <br/> 69009 Lyon</h2>
+                            <h2 class="footertext">31, rue St Simon <br/> 69009 Lyon</h2>
                                 <br/>
                     </div>
                     <div class="col-md-4">
 
-                            <img src="images/telephone-footer.png" class="img-footer" alt="">
+                            <img src="images/telephone-footer.png" class="imgFooter" alt="">
                                  <br>
-                                <h2 class="footertext">Nous téléphoner <br/> 04 27 11 86 00</h2>
+                                <h2 class="footertext">04 27 11 86 00</h2>
                     </div>
                 </div>
                 <div class="row">
