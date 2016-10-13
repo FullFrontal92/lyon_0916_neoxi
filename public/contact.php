@@ -53,7 +53,6 @@
                     <button type="submit" class="btn btn-submit">ENVOYER</button>
                 </div>
 
-
             <form/>
         </div>
         <div class="col-xs-10 col-xs-offset-1 col-sm-offset-1 col-sm-5 coorbox">
@@ -66,7 +65,7 @@
     </div>
 </div>
 
-
+<?php include"getUp.php" ?>
 <?php include "footer.php" ?>
 </body>
 

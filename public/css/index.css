@@ -107,8 +107,7 @@ body {
     padding-right: 10px;
     padding-bottom: 40px;
 }
-
-#news-button {
+.news-button {
     background-color: #c4d896;
     width: 128px;
     height: 35px;
@@ -121,6 +120,14 @@ body {
     margin-right: 25px;
     margin-bottom: 25px;
     padding-bottom: 10px;
+}
+.getUp{
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.imgUp{
+    height: 100%; float: right;
 }
 
 
