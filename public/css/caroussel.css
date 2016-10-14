@@ -1,0 +1,70 @@
+.carousselDiv{
+    background-color: white;
+    text-align: justify;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: absolute;
+    top: 30%;
+}
+.caroussel{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    height: 400px;
+    width: 100%;
+}
+.titlesCaroussel{
+    position: absolute;
+    height: 100px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #529BAC;
+    padding-bottom: 20px;
+}
+.carousselBox{
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.buttonPrev{
+    position:absolute;
+    margin:auto; top:0; bottom:0; left: 0;
+    height: 40px;
+    width: 40px;
+    transform: translate(0%, -100%);
+    font-size: 80px;
+}
+.buttonNext{
+    position:absolute;
+    margin:auto; top:0; bottom:0; right:0;
+    height: 40px;
+    width: 40px;
+    transform: translate(0%, -100%);
+    font-size: 80px;
+}
+.buttonPrev:hover{
+    color: grey;
+    cursor: pointer;
+}
+.buttonNext:hover{
+    color: grey;
+    cursor: pointer;
+}
+.color-g{
+    background-color: #e4e4e4;
+}
+.boutonCarroussel{
+    color: white;
+    font-size: 50px;
+    height: 100%;
+    margin-top: 12px;
+    text-align: center;
+}
+.borderBoutons{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
