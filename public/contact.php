@@ -4,6 +4,7 @@
 <head>
     <?php include "head.php" ?>
 </head>
+
 <body>
 <?php include "header.php" ?>
 <div class="container-fluid esp">
@@ -33,19 +34,19 @@
                 <br>
             <form class="col-sm-6 col-xs-12">
                 <div class="form-group">
-                    <input type="text" placeholder="NOM" class="form-control" id="lname">
+                    <input type="text" placeholder="NOM" class="form-control" id="lname"/>
                 </div>
                 <br>
                 <div class="form-group">
-                    <input type="text" placeholder="PRÉNOM" class="form-control" id="fname">
+                    <input type="text" placeholder="PRÉNOM" class="form-control" id="fname"/>
                 </div>
                 <br>
                 <div class="form-group">
-                    <input type="text" placeholder="E-MAIL" class="form-control" id="mail">
+                    <input type="text" placeholder="E-MAIL" class="form-control" id="mail"/>
                 </div>
                 <br>
                 <div class="form-group">
-                    <input type="text" placeholder="TÉLÉPHONE" class="form-control" id="tel">
+                    <input type="text" placeholder="TÉLÉPHONE" class="form-control" id="tel"/>
                 </div>
                 <br>
                 <div class="form-group">
@@ -53,7 +54,6 @@
 
                     <button type="submit" class="btn btn-submit">ENVOYER</button>
                 </div>
-
 
             <form/>
         </div>
@@ -67,7 +67,7 @@
     </div>
 </div>
 
-
+<?php include"getUp.php" ?>
 <?php include "footer.php" ?>
 </body>
 

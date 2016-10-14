@@ -1,16 +1,19 @@
-/*on fait descendre le bouton contact en mini format*/
-.menu-fixed{
-    display: inline;
-}
 /*on fait disparaitre la vague*/
 .wave{
     display: none;
+}
+h1 a{
+    font-size: 40px;
+    color: rgb(148,191,41);
+}
+.button-contact{
+    margin-top: -20px !important;
+    margin-left: 120px !important;
 }
 /* ajustemeent du formulaire */
 .form-group{ /* css pour l'espace qui englobe tout le formulaire */
     margin-left: 10px;
     width: 150px;
-
 }
 #com{
     width: 150px;
