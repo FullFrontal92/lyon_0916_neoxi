@@ -17,7 +17,6 @@
                                 <br/>
                     </div>
                     <div class="col-xs-4">
-
                         <a href="contact.php"><img src="images/telephone-footer.png" class="imgFooter" alt=""> </a>
                                  <br>
                         <a href="contact.php"><h2 class="footertext">04 27 11 86 00</h2> </a>
