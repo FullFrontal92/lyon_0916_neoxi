@@ -4,7 +4,6 @@
 		<?php include"head.php" ?>
     </head>
 	<body>
-		<?php include"getUp.php" ?>
 		<?php include"header.php" ?>
         <div class="container-fluid home" >
             <div class="row">
@@ -49,7 +48,7 @@
                 <div class="sudEst row ">
                     <div class="container">
                         <div class="col-xs-12 titleLogs">LE SUD-EST : zone principale d'intervention</div>
-                        <div class="col-xs-12 col-md-6">
+                        <div class="col-xs-12 col-md-6 sud">
                             <div class="sudText">
                             <p>
                                 Nos consultants ont pour mission de se comporter comme de vrais consultants maison
@@ -64,13 +63,14 @@
                             </p>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-md-6">
-                            <img src="images/compta.png" alt="comptabilité" title="engagements neoxi">
+                        <div class="col-xs-12 col-md-6 ">
+                            <img src="images/compta.png" alt="comptabilité" title="engagements neoxi" class="sudImg" >
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <?php include"getUp.php" ?>
 		<?php include"footer.php" ?>
 	</body>
 </html>

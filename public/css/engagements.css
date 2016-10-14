@@ -43,6 +43,8 @@ body {
 .sudEst p {
     display: block;
     margin: auto;
+    position: absolute;
+    top: 20%;
 }
 
 .sudEst img {
