@@ -1,5 +1,8 @@
+var i=0;
 $(function(){
-    setInterval(test, 500);
+    setInterval(test, 300);
+    setInterval(nextText, 8000);
+
 });
 function test(){
     var top = window.pageYOffset;
@@ -13,5 +16,26 @@ function test(){
             stickyDisplay.style.display = "";
             navMargin.style.marginTop = "";
         }
+    }
+}
+
+function nextText(){
+    $("#caroussel div").hide();
+    $("#caroussel div:eq("+i+")").show();
+    $("#titlesCaroussel div").css('color', 'white');
+    $("#titlesCaroussel div:eq("+i+")").css('color', 'black');
+    i= i+1;
+    if(i>2){
+        i=0;
+    }
+}
+function prevText(){
+    $("#caroussel div").hide();
+    $("#caroussel div:eq("+i+")").show();
+    $("#titlesCaroussel div").css('color', 'white');
+    $("#titlesCaroussel div:eq("+i+")").css('color', 'black');
+    i= i-1;
+    if(i<0){
+        i=2;
     }
 }
