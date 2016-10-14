@@ -4,6 +4,7 @@
 <head>
     <?php include "head.php" ?>
 </head>
+
 <body>
 <?php include "header.php" ?>
 <div class="container-fluid esp">
@@ -50,6 +51,7 @@
                 <br>
                 <div class="form-group">
                     <textarea class="form-control" placeholder="VOTRE MESSAGE" id="com"></textarea>
+
                     <button type="submit" class="btn btn-submit">ENVOYER</button>
                 </div>
 

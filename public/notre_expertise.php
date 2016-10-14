@@ -11,7 +11,7 @@
 
 <div class="container-fluid exp">
 	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-lg-12" id="imgexp">
+		<div class="col-xs-12 col-sm-12 col-lg-12" id="imgexp" alt="image pour l'expertise haut de la page">
 			<div class="bloc-texte" id="text-description">
 				<h2 id="ourexp">NOTRE EXPERTISE</h2>
 				<p class="bigtxt"> Lorem ipsum dolore. Lorem ipsum dolore. Lorem ipsum dolore. Lorem ipsum dolore ...
@@ -24,7 +24,7 @@
 <div class="container-fluid domexp">
 	<div class="row">
 		<div class="col-sm-offset-1 col-sm-2">
-			<img class="imgexpert" src="images/logoExpertEnt.png">
+			<img class="imgexpert" src="images/logoExpertEnt.png" alt="logo expertise entreprise">
 			<p>UNE GESTION SOUPLE DE L'ENTREPRISE</p>
 		</div>
 		<div class="col-sm-2">
@@ -32,7 +32,7 @@
 			</p>
 		</div>
 		<div class="col-sm-offset-1 col-sm-2">
-			<img src="images/logoExpertTier.png">
+			<img src="images/logoExpertTier.png" alt="logo expertise tier payant">
 			<p>UN TIERS PAYANT ÉTENDU ET MAITRISÉ</p>
 		</div>
 		<div class="col-sm-2">
@@ -44,7 +44,7 @@
 <div class="container-fluid domexp2">
 	<div class="row">
 		<div class="col-sm-offset-1 col-sm-2">
-			<img src="images/logoExpertCom.png">
+			<img src="images/logoExpertCom.png" alt="logo expertise com">
 			<p>UNE COMMUNICATION DYNAMIQUE</p>
 		</div>
 		<div class="col-sm-2">
@@ -52,7 +52,7 @@
 
 		</div>
 		<div class="col-sm-offset-1 col-sm-2">
-			<img src="images/logoExpertInnov.png">
+			<img src="images/logoExpertInnov.png" alt="logo expertise innovation">
 			<p>UNE DÉMARCHE INNOVANTE</p>
 		</div>
 		<div class="col-sm-2">
