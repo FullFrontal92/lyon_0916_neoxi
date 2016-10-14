@@ -51,6 +51,7 @@
             </div>
         </div>
         <div class="container-fluid color-g">
+            <div class="col-xs-12 titleCar">TRAVAILLER AVEC NOUS</div>
                 <div class="row">
                     <div class="caroussel col-xs-12">
                         <div id="caroussel"  class="carousselBox">

@@ -4,13 +4,15 @@
     padding-left: 80px;
     padding-right: 80px;
     position: absolute;
-    top: 30%;
+    margin-top: 30px;
 }
 .caroussel{
     margin-top: 200px;
     margin-bottom: 200px;
-    height: 400px;
+    padding-left: 0;
+    height: 500px;
     width: 100%;
+    overflow: hidden;
 }
 .titlesCaroussel{
     position: absolute;
@@ -35,7 +37,7 @@
     margin:auto; top:0; bottom:0; left: 0;
     height: 40px;
     width: 40px;
-    transform: translate(0%, -100%);
+    transform: translate(0%, -250%);
     font-size: 80px;
 }
 .buttonNext{
@@ -43,7 +45,7 @@
     margin:auto; top:0; bottom:0; right:0;
     height: 40px;
     width: 40px;
-    transform: translate(0%, -100%);
+    transform: translate(0%, -250%);
     font-size: 80px;
 }
 .buttonPrev:hover{
@@ -59,7 +61,7 @@
 }
 .boutonCarroussel{
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     height: 100%;
     margin-top: 12px;
     text-align: center;
@@ -67,4 +69,8 @@
 .borderBoutons{
     border-left: 2px solid white;
     border-right: 2px solid white;
+}
+.titleCar{
+    margin-top: 60px;
+    font-size: 45px;
 }
