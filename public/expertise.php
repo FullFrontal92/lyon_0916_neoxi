@@ -34,7 +34,7 @@
     </div>
 
 
-
+    <?php include"getUp.php" ?>
     <?php include "footer.php" ?>
         </body>
 

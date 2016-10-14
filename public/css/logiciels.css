@@ -24,12 +24,10 @@
 }
 .titleSage{
     font-size: 100px;
-    text-align: center;
 }
 .titleComp{
+    padding-top: 20px;
     font-size: 60px;
-    display: flex;
-    justify-content: center;
 }
 .titleSage a{
     text-decoration: none;

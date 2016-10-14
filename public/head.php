@@ -7,6 +7,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/sticky.js"></script>
+<script type="text/javascript" src="js/actu.js"></script>
 <title>Neoxi</title>
 <!--raleway font-->
 <style>
@@ -24,6 +25,6 @@
 <link rel="stylesheet" type="text/css" href="css/actu.css">
 <link rel="stylesheet" type="text/css" href="css/société.css">
 
-<link rel="stylesheet" media="screen and (max-width: 366px)" type="text/css" href="css/queriesXXs.css">
+<link rel="stylesheet" media="screen and (max-width: 492px)" type="text/css" href="css/queriesXXs.css">
 <link rel="stylesheet" media="screen and (max-width: 767px)" type="text/css" href="css/queriesXs.css">
 <link rel="stylesheet" media="screen and (max-width: 991px)" type="text/css" href="css/queriesMd.css">
