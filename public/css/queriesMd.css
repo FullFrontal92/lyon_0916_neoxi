@@ -1,3 +1,6 @@
+.hideOnMd{
+    display: none !important;
+}
 /*correction spécifique pour le header (pour le hamburger en format md)*/
 .navbar-collapse.collapse {
     display: block !important;
@@ -129,8 +132,15 @@
     margin: 0;
 }
 /*//////*/
-
 /*carroussel*/
 .boutonCarroussel{
-    display: none;
+    font-size: 20px;
+    padding-top: 0;
+}
+.titlesCaroussel{
+    position: absolute;
+    height: 50px;
+}
+.titleCar{
+    margin-bottom: 60px;
 }

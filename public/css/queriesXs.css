@@ -63,9 +63,19 @@ h1#last-news {
 .sudImg {
     width: 80%;
 }
-
-/*carroussel*/
-.boutonCarroussel{
-    font-size: 50px;
+.hideOnXs{
+    display: none;
 }
+.showOnXs{
+    display: inline;
+}
+/*caroussel*/
+.carousselSmall{
+    margin-left: 40px;
+    width: 80%;
+}
+.margin-b-car{
+    padding-bottom: 100px;
+}
+
 

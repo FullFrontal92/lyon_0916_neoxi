@@ -36,7 +36,7 @@
                         <li><a href="nos_engagements.php">ENGAGEMENTS</a></li>
                         <li><a href="logiciels_references.php">LOGICIELS</a></li>
                         <li><a class="actu" href="actu.php">ACTUALITÉS</a></li>
-                        <li><a href="contact.php">CONTACT</a></li>
+                        <li class="hideOnMd"><a href="contact.php">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
