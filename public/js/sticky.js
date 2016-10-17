@@ -1,11 +1,9 @@
 var g = {
     i:0,
-    timer: setInterval(nextText, 6000)
+    timer: setInterval(nextText, 6000),
+    stick: setInterval(stick, 300)
 };
-$(function(){
-    setInterval(test, 300);
-});
-function test(){
+function stick(){
     var top = window.pageYOffset;
     var stickyDisplay = document.getElementById('stickyToHide');
     var navMargin = document.getElementById('nav');
