@@ -5,14 +5,31 @@ var g = {
 };
 function stick(){
     var top = window.pageYOffset;
-    var stickyDisplay = document.getElementById('stickyToHide');
     var navMargin = document.getElementById('nav');
+    var height = document.getElementsByClassName('header-height');
+    var logoText = document.getElementById('logoText');
+    var logoWave = document.getElementById('logoWave');
+    var margin = document.getElementById('neoGreen');
     if (screen.width > 990) {
         if (top > 50) {
-            stickyDisplay.style.display = "none";
+            for(var i =0; i < height.length; i++){
+                height[i].style.height = '50px';
+            }
+            margin.style.marginLeft = '-9px';
+            margin.style.marginRight = '-9px';
+            logoText.style.fontSize = '30px';
+            logoText.style.marginTop = '7px';
+            logoWave.style.display = 'none';
             navMargin.style.marginTop = "0";
         } else {
-            stickyDisplay.style.display = "";
+            for(var i =0; i < height.length; i++){
+                height[i].style.height = '100px';
+            }
+            logoText.style.marginTop = '';
+            margin.style.marginLeft = '';
+            margin.style.marginRight = '';
+            logoText.style.fontSize = '';
+            logoWave.style.display = '';
             navMargin.style.marginTop = "";
         }
     }
