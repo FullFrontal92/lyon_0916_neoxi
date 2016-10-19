@@ -1,3 +1,9 @@
+.hideOnXs{
+    display: inline;
+}
+.showOnXs{
+    display: none;
+}
 .carousselDiv{
     background-color: white;
     text-align: justify;
@@ -12,8 +18,6 @@
     transform: translate(0%, -50%);
 }
 .caroussel{
-    margin-top: 100px;
-    margin-bottom: 200px;
     padding-left: 0;
     height: 500px;
     width: 100%;
@@ -39,7 +43,7 @@
 }
 .buttonPrev{
     position:absolute;
-    margin:auto; top:0; bottom:0; left: 0;
+    margin:auto; top:0; bottom:0; left: 20px;
     height: 40px;
     width: 40px;
     -ms-transform: translate(0%, -50%);
@@ -50,7 +54,7 @@
 }
 .buttonNext{
     position:absolute;
-    margin:auto; top:0; bottom:0; right:0;
+    margin:auto; top:0; bottom:0; right:20px;
     height: 40px;
     width: 40px;
     -ms-transform: translate(0%, -50%);
@@ -67,9 +71,6 @@
     color: grey;
     cursor: pointer;
 }
-.color-g{
-    background-color: #e4e4e4;
-}
 .boutonCarroussel{
     color: white;
     font-size: 40px;
@@ -81,10 +82,6 @@
 .borderBoutons{
     border-left: 2px solid white;
     border-right: 2px solid white;
-}
-.titleCar{
-    margin-top: 60px;
-    font-size: 45px;
 }
 .boutonCarroussel:hover{
     cursor: pointer;
