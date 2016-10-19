@@ -23,6 +23,7 @@
 <link rel="stylesheet" type="text/css" href="css/actu.css">
 <link rel="stylesheet" type="text/css" href="css/société.css">
 <link rel="stylesheet" type="text/css" href="css/caroussel.css">
+<link rel="stylesheet" type="text/css" href="css/mention-legales.css">
 
 <link rel="stylesheet" media="screen and (max-width: 991px)" type="text/css" href="css/queriesMd.css">
 <link rel="stylesheet" media="screen and (max-width: 767px)" type="text/css" href="css/queriesXs.css">
