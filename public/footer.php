@@ -24,7 +24,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
-                    <p class="mentions">@2016 Neoxi - MENTIONS LEGALES Site réalisé par les élèves de la Wild Code School</p>
+                    <a href="mention-legales.php"><p class="mentions">@2016 Neoxi - MENTIONS LEGALES Site réalisé par les élèves de la Wild Code School</p></a>
                 </div>
             </div>
         </div>
