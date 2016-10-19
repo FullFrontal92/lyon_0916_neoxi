@@ -9,18 +9,18 @@
                 <span class="icon-bar"></span>
             </button>
             <div class="row">
-                <div id='stickyToHide' class="col-xs-8 col-md-2 neoxi-header-title">
-                    <img class="img-logo header-height" src="images/logo-neo-blue.png"/>
+                <div class="col-xs-8 col-md-2 neoxi-header-title">
+                    <a href="index.php"><img id="logoImg" class="img-logo header-height" src="images/logo-neo-blue.png"/></a>
                     <div class="header-height col-xs-6 col-md-2">
                         <div class="col-xs-2">
-                            <img class="wave" src="images/wave.png">
+                            <img id="logoWave" class="wave" src="images/wave.png">
                             <div>
-                                <h1 class="nav">
+                                <h1 id="logoText" class="titleNeo nav">
                                     <a href="index.php">
                                         <div class="block-neoxi">
-                                            <span class="neoGreen">ne</span>
-                                            <span class="neoBlue">o</span>
-                                            <span class="neoGreen">xi</span>
+                                            ne
+                                            <span id="neoGreen">o</span>
+                                            xi
                                         </div>
                                     </a>
                                 </h1>
@@ -36,7 +36,7 @@
                         <li><a href="nos_engagements.php">ENGAGEMENTS</a></li>
                         <li><a href="logiciels_references.php">LOGICIELS</a></li>
                         <li><a class="actu" href="actu.php">ACTUALITÉS</a></li>
-                        <li><a href="contact.php">CONTACT</a></li>
+                        <li class="hideOnMd"><a href="contact.php">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
