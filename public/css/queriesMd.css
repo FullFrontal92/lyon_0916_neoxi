@@ -73,17 +73,6 @@
     text-align: center;
 }
 
-/*pour le header*/
-
-/* taille et couleur de la typo neoxi en format mobile*/
-/*h1 a{
-   font-size: 40px;
-    color: rgb(148,191,41);
-}*/
-/*taille du header en format mobile*/
-/*.header-height{
-    height: 80px;
-}*/
 /*taille et position du hamburger*/
 .hamburger{
     margin-top: 20px;
@@ -95,12 +84,7 @@
     margin-left: 15px;
     margin-top: 34px;
 }
-/*modification du format de la wave en format mobile*/
-/*.wave{
-    margin-left: -35px;
-    top: 60px;
-    width: 150px;
-}*/
+
 /*modification du comportement de la navbar en format mobile*/
 .nav-inline{
     display: inline;
@@ -143,4 +127,7 @@
 }
 .titleCar{
     margin-bottom: 60px;
+}
+.breakTopMd{
+    margin-top: 60px;
 }
