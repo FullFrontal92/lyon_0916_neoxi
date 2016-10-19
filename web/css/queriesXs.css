@@ -1,0 +1,71 @@
+/*page logiciels*/
+.titleLogs{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.titleSage{
+    font-size: 40px;
+}
+.titleComp{
+    font-size: 40px;
+}
+
+
+.no-padding{
+    padding: 0;
+    margin: 0;
+}
+
+/* ajustemeent du formulaire */
+.form-group{ /* css pour l'espace qui englobe tout le formulaire */
+    margin-left: 10px;
+    width: 300px;
+}
+#com{
+    width: 300px;
+}
+/*//////*/
+/*index*/
+.imgDev{
+    height: 200px;
+}
+.bloc-texte{
+    font-size: 16px;
+    height: 150px;
+    width: 350px;
+}
+#home-button {
+    display: none;
+}
+.last-news-bloc {
+    height: 10px;
+}
+h1#last-news {
+    font-size: 2.5em;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.news {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sudEst p {
+    top: 0;
+}
+
+.sud {
+    margin-bottom: 30px;
+}
+
+.sudImg {
+    width: 80%;
+}
+
+/*carroussel*/
+.boutonCarroussel{
+    font-size: 50px;
+}
+

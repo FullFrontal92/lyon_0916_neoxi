@@ -1,0 +1,38 @@
+#footer {
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    background-color: #010101;
+    height: auto;
+    height: 100%;
+    font-size: 0.8em;
+}
+
+.footerFluid {
+    width: auto;
+    max-width: 100%;
+    padding-top: 25px;
+    position: relative;
+    text-align: center;
+}
+
+
+.container .text-muted {
+    margin: 20px 0;
+}
+.footertext {
+    font-size: 19px;
+    color: white;
+    margin-top: 5px;
+}
+.mentions {
+    margin-top: 10px;
+    color: white;
+    font-size: 13px;
+}
+.imgFooter {
+    height: 40px;
+}
+.classRowFooter {
+    margin-top: 10px;
+}

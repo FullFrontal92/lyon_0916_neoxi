@@ -1,0 +1,11 @@
+neoxis:
+    resource: "@NeoxisBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+
+
+
+
+
+

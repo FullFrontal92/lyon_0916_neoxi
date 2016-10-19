@@ -1,0 +1,31 @@
+neoxis_homepage:
+    path:     /
+    defaults: { _controller: NeoxisBundle:Default:index }
+
+neoxis_actupage:
+    path:     /actu.html
+    defaults: { _controller: NeoxisBundle:Front:actu }
+
+neoxis_contactpage:
+    path:     /contact.html
+    defaults: { _controller: NeoxisBundle:Front:contact }
+
+neoxis_notre_expertisepage:
+    path:     /notre_expertise.html
+    defaults: { _controller: NeoxisBundle:Front:notre_expertise }
+
+neoxis_nos_engagementspage:
+    path:     /nos_engagements.html
+    defaults: { _controller: NeoxisBundle:Front:nos_engagements }
+
+neoxis_logiciels_referencespage:
+    path:     /logiciels_references.html
+    defaults: { _controller: NeoxisBundle:Front:logiciels_references }
+
+neoxis_societepage:
+    path:     /societe.html
+    defaults: { _controller: NeoxisBundle:Front:societe }
+
+
+
+
