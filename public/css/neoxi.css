@@ -5,6 +5,9 @@
 /*supression des bordures des boutons*/
 input{ border: none; }
 /*marge pour l'ensemble des pages de la taille du header*/
+a:hover{
+    text-decoration: none;
+}
 .globalContainer{
     margin-top: 100px;
 }
