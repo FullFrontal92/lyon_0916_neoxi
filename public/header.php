@@ -13,17 +13,9 @@
                     <a href="index.php"><img id="logoImg" class="img-logo header-height" src="images/logo-neo-blue.png"/></a>
                     <div class="header-height col-xs-6 col-md-2">
                         <div class="col-xs-2">
-                            <img id="logoWave" class="wave" src="images/wave.png">
                             <div>
-                                <h1 id="logoText" class="titleNeo nav">
-                                    <a href="index.php">
-                                        <div class="block-neoxi">
-                                            ne
-                                            <span id="neoGreen">o</span>
-                                            xi
-                                        </div>
-                                    </a>
-                                </h1>
+                                <img id="logoColors" src="images/logo-neoxi-colors.png">
+                                </img>
                             </div>
                         </div>
                     </div>

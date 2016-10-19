@@ -7,29 +7,22 @@ function stick(){
     var top = window.pageYOffset;
     var navMargin = document.getElementById('nav');
     var height = document.getElementsByClassName('header-height');
-    var logoText = document.getElementById('logoText');
-    var logoWave = document.getElementById('logoWave');
-    var margin = document.getElementById('neoGreen');
+    var logo = document.getElementById('logoColors');
     if (screen.width > 990) {
         if (top > 50) {
             for(var i =0; i < height.length; i++){
                 height[i].style.height = '50px';
             }
-            margin.style.marginLeft = '-9px';
-            margin.style.marginRight = '-9px';
-            logoText.style.fontSize = '30px';
-            logoText.style.marginTop = '7px';
-            logoWave.style.display = 'none';
+            logo.style.width = '80px';
+            logo.style.marginLeft = '-30px';
+            logo.style.marginTop = '10px';
             navMargin.style.marginTop = "0";
         } else {
             for(var i =0; i < height.length; i++){
                 height[i].style.height = '100px';
             }
-            logoText.style.marginTop = '';
-            margin.style.marginLeft = '';
-            margin.style.marginRight = '';
-            logoText.style.fontSize = '';
-            logoWave.style.display = '';
+            logo.style.width = '';
+            logo.style.marginTop = '';
             navMargin.style.marginTop = "";
         }
     }
