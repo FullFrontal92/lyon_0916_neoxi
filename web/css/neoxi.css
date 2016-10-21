@@ -1,0 +1,164 @@
+/*police pour l'ensemble*/
+*{ font-family: 'Raleway', sans-serif;}
+/*suppression des pointillés autour des blocs sur mozilla*/
+*|*:-moz-any-link:focus { outline: none;}
+/*supression des bordures des boutons*/
+input{ border: none; }
+/*marge pour l'ensemble des pages de la taille du header*/
+a:hover{
+    text-decoration: none;
+}
+.globalContainer{
+    margin-top: 100px;
+}
+/*espace entre les raws*/
+.space-top{
+    margin-top: 60px;
+}
+/*centre le text*/
+.center{
+    text-align: center;
+}
+.border{
+    border: 1px solid #b4b4b4;
+}
+.width100{
+    width: 100%;
+}
+.justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.displayBlock {
+    display: block;
+    margin: auto;
+}
+.break{
+    margin-bottom: 60px;
+}
+/*image en haut de chaque page*/
+.topImg{
+    height: 430px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*cadre dans l'image (topImg)*/
+.cadre{
+    width: 550px;
+    height: 220px;
+    top: 20%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.90);
+}
+/*titre des sections*/
+.h1{
+    color: #676863;
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+/*titre du cadre*/
+.h2{
+    color: #96bd2a;
+    font-size: 45px;
+}
+/*titres classiques*/
+.h3{
+    color: #3b3b3b;
+    font-weight: bold;
+    font-size: 28px;
+}
+/*texte du cadre*/
+.p2{
+    color: white;
+    font-size: 20px;
+}
+/*gros texte en italique*/
+.p3{
+    font-size: 32px;
+    text-align: center;
+    font-style: italic;
+}
+/*texte moyen*/
+.p4{
+    font-size: 18px;
+}
+/*bouton du cadre*/
+.b2{
+    width: 150px;
+    height: 40px;
+    margin-right: 30px;
+    float: right;
+    background-color: #96bd2a;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+/*bouton pour l'actualitée => lire la suite*/
+.b1{
+    background-color: #c4d896;
+    width: 128px;
+    height: 35px;
+    border-radius: 20px;
+    float: right;
+}
+/*block blanc*/
+.block1{
+    margin-top: 60px;
+}
+/*block gris*/
+.block2 {
+    background-color: #edeeef;
+    padding: 60px 60px 160px 60px;
+}
+/*padding standard*/
+.block-padding{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/*Classes specifiques*/
+
+/*marge pour les paragraphes de la page engagements*/
+.p-engagements{
+    padding-top: 30px;
+}
+/*specificment pour l'actu en page index*/
+.blockActu{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0 10px 50px 10px;
+}
+/*fleche pour remonter en haut de la page*/
+.getUp{
+    margin-top: -100px;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*pour l'image du bouton*/
+.getUp img{
+    height: 100%; float: right;
+}
+/*pour le bouton/text sage*/
+.logiciels-sage{
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0b4b2d;
+}
+.logiciels-sage:hover{
+    color: #0b4b2d;
+}
+/*pour le bouton/text compagnons*/
+.logiciels-comp{
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.logiciels-comp:hover{
+    color: black;
+}

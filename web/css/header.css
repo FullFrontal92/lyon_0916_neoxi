@@ -6,22 +6,23 @@
     border-bottom: 1px solid rgb(148,191,41);
 }
 /*titre NEOXI*/
-h1 a{
+.titleNeo{
     font-size: 50px;
-    color: rgb(148,191,41);
+    color: rgb(48,132,155);
 }
 /*hover NEOXI*/
-h1 a:hover{
+.titleNeo a:hover{
     text-decoration: none;
-    color: rgb(28,36,78);
+    color: rgb(48,132,155);
 }
 /*couleur verte du logo text neoxi*/
-.neoGreen{
-    margin: 0 0 0 -13px; color: rgb(48,132,155);
+#neoGreen{
+    color: rgb(148,191,41);
+    margin-left: -15px;
+    margin-right: -15px;
 }
-/*couleur bleu du logo text neoxi*/
-.neoBlue{
-    margin: 0 0 0 -13px; color: rgb(148,191,41);
+.Margin-titleNeo{
+    margin-left: -15px;
 }
 /*propriétés du bouton hover*/
 .button-contact{
@@ -117,4 +118,8 @@ h1 a:hover{
 .noPadding-left-right{
     padding-left: 0;
     padding-right: 0;
+}
+#logoColors{
+    margin-top: 25px;
+    width: 130px;
 }
