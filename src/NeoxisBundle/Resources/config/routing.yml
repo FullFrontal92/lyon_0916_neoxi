@@ -1,7 +1,3 @@
-neoxis_homepage:
-    path:     /
-    defaults: { _controller: NeoxisBundle:Default:index }
-
 neoxis_actupage:
     path:     /actu
     defaults: { _controller: NeoxisBundle:Front:actu }
