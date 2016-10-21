@@ -1,3 +1,6 @@
+.hideOnMd{
+    display: none !important;
+}
 /*correction spécifique pour le header (pour le hamburger en format md)*/
 .navbar-collapse.collapse {
     display: block !important;
@@ -70,17 +73,6 @@
     text-align: center;
 }
 
-/*pour le header*/
-
-/* taille et couleur de la typo neoxi en format mobile*/
-/*h1 a{
-   font-size: 40px;
-    color: rgb(148,191,41);
-}*/
-/*taille du header en format mobile*/
-/*.header-height{
-    height: 80px;
-}*/
 /*taille et position du hamburger*/
 .hamburger{
     margin-top: 20px;
@@ -92,12 +84,7 @@
     margin-left: 15px;
     margin-top: 34px;
 }
-/*modification du format de la wave en format mobile*/
-/*.wave{
-    margin-left: -35px;
-    top: 60px;
-    width: 150px;
-}*/
+
 /*modification du comportement de la navbar en format mobile*/
 .nav-inline{
     display: inline;
@@ -129,8 +116,39 @@
     margin: 0;
 }
 /*//////*/
-
 /*carroussel*/
 .boutonCarroussel{
-    display: none;
+    font-size: 20px;
+    padding-top: 0;
+}
+.titlesCaroussel{
+    position: absolute;
+    height: 50px;
+}
+.titleCar{
+    margin-bottom: 60px;
+}
+.breakTopMd{
+    margin-top: 60px;
+}
+/*actualitées*/
+.imgFloat{
+    float: none; width: 100%;
+    padding: 0;
+}
+.buttonActu{
+    position: absolute;
+    margin: auto;
+    top: 73vw; left: 0;
+    width: 100%;
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 8px;
+    height: 50px;
+}
+.marginActu{
+    overflow: hidden;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 80vw;
 }

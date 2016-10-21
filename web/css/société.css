@@ -1,3 +1,9 @@
+.hideOnXs{
+    display: inline;
+}
+.showOnXs{
+    display: none;
+}
 .greyBox {
 font-size: 15px;
 }
@@ -34,35 +40,27 @@ font-size: 15px;
 .marginInter {
     padding-top: 20px;
 }
-.carrousel {
-    height: 600px;
-    width: 100%;
-    background-color: #edeeef;
-
-}
 @media all and (max-width: 989px){
-        .firstImg {
-            display: none;
-        }
-        .firstText {
-            color: black;
-            font-size: 20px;
-            text-align: justify;
-
-        }
+    .firstImg {
+        display: none;
+    }
+    .firstText {
+        color: black;
+        font-size: 20px;
+        text-align: justify;
+    }
 }
 @media all and (min-width: 989px) and (max-width: 1202px){
-        .querySociety{
-            text-align: center;
-        }
-        .firstImg {
-            display: none;
-        }
+    .querySociety{
+        text-align: center;
+    }
+    .firstImg {
+        display: none;
+    }
     .firstText {
         color: black;
         font-size: 20px;
         text-align: justify;
         width: 100%;
-
     }
 }

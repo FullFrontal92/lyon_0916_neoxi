@@ -35,24 +35,14 @@ class FrontController extends Controller
         return $this->render('NeoxisBundle:Front:societe.html.twig');
     }
 
-    public function headAction()
+    public function mention_legalesAction()
     {
-        return $this->render('NeoxisBundle:Front:head.html.twig');
+        return $this->render('NeoxisBundle:Front:mention_legales.html.twig');
     }
 
-    public function headerAction()
+    public function neo_homeAction()
     {
-        return $this->render('NeoxisBundle:Front:header.html.twig');
-    }
-
-    public function footerAction()
-    {
-        return $this->render('NeoxisBundle:views:front:footer.html.twig');
-    }
-
-    public function getUpAction()
-    {
-        return $this->render('NeoxisBundle:Front:getUp.html.twig');
+        return $this->render('NeoxisBundle:Front:neo_home.html.twig');
     }
 }
 
