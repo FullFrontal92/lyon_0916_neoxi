@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin'); /* Font used for contact adress */
+
+
+.esp{ /* css for the 1st container-fluid */
+    margin-top: 100px;
+    min-height:100px;
+    background-color: #529BAC;
+
+}
+
+#bloctxt{ /* css pour le nous contacter*/
+    text-align: left;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    padding-left: 20px;
+    margin-top: 35px;
+}
+
+.gmap{ /* css pour le conteneur fluid avec le bloc google map */
+    margin-top: 50px;
+}
+
+.responsive-map{ /* map google a rendre responsive */
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    overflow:hidden;
+    height: 632px;
+}
+
+
+
+#fctxt{ /* css pour le text du bloc formulaire de contact */
+    margin-left: 67px;
+    text-align: left;
+    font-weight: bold;
+    color: #529BAC;
+    border-bottom: solid 4px #529BAC ;
+}
+
+.form-group{ /* css pour l'espace qui englobe tout le formulaire */
+    margin-left: 67px;
+    width: 456px;
+
+}
+
+.form-control{ /* css pour les blocs de formulaire */
+    height: 62px;
+    border: 1px solid black;
+    border-radius: 0;
+
+}
+.form-control:focus{ /* css pour les blocs de formulaire */
+    box-shadow: none;
+    border: 1px solid #4E98B3;
+
+}
+#com{ /* css pour le bloc message uniquement */
+    width: 581px;
+    height: 255px;
+
+}
+
+.btn-submit{ /* css bloc bouton */
+    height: 50px;
+    font-weight: bold;
+    background-color: #D2D2D2;
+    color: #4E98B3;
+    border-radius: 0px;
+    margin-top: 10px;
+    float: right;
+    margin-right: -126px;
+}
+
+.coorbox{ /* css pour la zone coordonnées */
+    margin-top: 8px;
+
+
+
+}
+
+#coortxt{ /* css pour le text coordonnées */
+    text-align: left;
+    font-weight: bold;
+    color: #529BAC;
+    border-bottom: solid 4px #529BAC ;
+    padding: 0;
+}
+
+#infocoor{ /* css pour les infos des coordonnées */
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-top: 15px;
+
+}
+.form{ /* dernier conteneur fluid */
+    margin-bottom: 132px;
+}
+

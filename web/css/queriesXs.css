@@ -1,0 +1,96 @@
+/*page logiciels*/
+.titleLogs{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.titleSage{
+    font-size: 40px;
+}
+.titleComp{
+    font-size: 40px;
+}
+
+
+.no-padding{
+    padding: 0;
+    margin: 0;
+}
+
+/* ajustemeent du formulaire */
+.form-group{ /* css pour l'espace qui englobe tout le formulaire */
+    margin-left: 10px;
+    width: 300px;
+}
+#com{
+    width: 300px;
+}
+/*//////*/
+/*index*/
+.imgDev{
+    height: 200px;
+}
+.bloc-texte{
+    font-size: 16px;
+    height: 150px;
+    width: 350px;
+}
+#home-button {
+    display: none;
+}
+.last-news-bloc {
+    height: 10px;
+}
+h1#last-news {
+    font-size: 2.5em;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.news {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sudEst p {
+    top: 0;
+}
+
+.sud {
+    margin-bottom: 30px;
+}
+
+.sudImg {
+    width: 80%;
+}
+.hideOnXs{
+    display: none;
+}
+.showOnXs{
+    display: inline;
+}
+/*caroussel*/
+.carousselSmall{
+    margin-left: 40px;
+    width: 80%;
+}
+.margin-b-car{
+    padding-bottom: 100px;
+}
+
+/*cadre*/
+.cadre{
+    width: 100%;
+    height: 300px;
+    top: 20%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.90);
+}
+.h2{
+    color: #96bd2a;
+    font-size: 45px;
+}
+
+

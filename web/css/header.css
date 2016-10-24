@@ -1,0 +1,125 @@
+/*gestion des fonts couleurs, tailles types*/
+
+/*couleur du background du header*/
+.header-background{
+    background-color: rgb(239,239,239);
+    border-bottom: 1px solid rgb(148,191,41);
+}
+/*titre NEOXI*/
+.titleNeo{
+    font-size: 50px;
+    color: rgb(48,132,155);
+}
+/*hover NEOXI*/
+.titleNeo a:hover{
+    text-decoration: none;
+    color: rgb(48,132,155);
+}
+/*couleur verte du logo text neoxi*/
+#neoGreen{
+    color: rgb(148,191,41);
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.Margin-titleNeo{
+    margin-left: -15px;
+}
+/*propriétés du bouton hover*/
+.button-contact{
+    color: rgb(28,36,78);
+    display: none;
+    font-weight: bold;
+}
+/*bouton contact hover*/
+.button-contact:hover{
+    text-decoration: underline;
+    color: rgb(28,36,78);
+}
+/*propriétés de la navbar*/
+.navbar-default .navbar-nav > li > a{
+    font-weight: bold;
+    color: rgb(28,36,78);
+}
+/*hover de la navbar*/
+.navbar-default .navbar-nav > li > a:hover{
+    text-decoration: underline;
+    color: rgb(28,36,78);
+}
+/*bouton actu vert*/
+.navbar-default .navbar-nav > li > a.actu{
+    background-color: rgba(0,0,0,0);
+    font-weight: bold;
+    color: rgb(148,191,41);
+}
+/*position et taille de la vague*/
+.wave{
+    position: absolute;
+    margin-left: -40px;
+    top: 70px;
+    width: 200px;
+}
+
+/*///////*/
+/*comportement des blocs, modification des propriétés bootstrap*/
+
+.block-neoxi{
+    min-width: 130px;
+}
+/*taille du header*/
+.header-height{
+    height: 100px;
+}
+.img-logo{
+    float: left;
+}
+/* on modifie le comportement par default du menu bootstrap*/
+/*on modifie le box-shadow de la navbar bootstrap*/
+.navbar-default{
+    box-shadow: inset 0 0 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,0);
+}
+/* on centre les en objets absolute sur la hauteur*/
+.center-height{
+    margin: auto; top: 0; bottom: 0;
+}
+/*on vire la marge sur le navbar-toggle de bootstrap*/
+.navbar-toggle{
+    margin-right: 0;
+}
+/*taille et position du burger*/
+.hamburger{
+    margin-top: 30px;
+    height: 40px;
+}
+/*barres dans le bouton burger (on augmente la taille et change la couleur)*/
+.navbar-default .navbar-toggle .icon-bar{
+    display: block;
+    width: 28px;
+    height: 5px;
+    border-radius: 1px;
+    background-color: #424242;
+}
+/*on masque les bordures par default du bouton burger*/
+.navbar-default .navbar-toggle{
+    border: 0;
+}
+/*on positionne la navbar*/
+.margin-nav{
+    margin-top: 26px;
+}
+/*les borders c'est moche*/
+.navbar{
+    border: none;
+}
+/*pour que la navbar reste a droite*/
+.float-right{
+    float: right;
+    margin-right: 60px;
+}
+.noPadding-left-right{
+    padding-left: 0;
+    padding-right: 0;
+}
+#logoColors{
+    margin-top: 25px;
+    width: 130px;
+}
