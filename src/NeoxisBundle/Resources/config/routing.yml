@@ -1,3 +1,7 @@
+neoxis_news:
+    resource: "@NeoxisBundle/Resources/config/routing/news.yml"
+    prefix:   /news
+
 neoxis_actupage:
     path:     /actu
     defaults: { _controller: NeoxisBundle:Front:actu }

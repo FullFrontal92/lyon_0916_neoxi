@@ -1,0 +1,23 @@
+NeoxisBundle\Entity\news:
+    type: entity
+    table: null
+    repositoryClass: NeoxisBundle\Repository\newsRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        picture:
+            type: string
+            length: 255
+        title:
+            type: string
+            length: '30'
+        date:
+            type: string
+            length: '30'
+        text:
+            type: text
+    lifecycleCallbacks: {  }

@@ -1,0 +1,24 @@
+news_index:
+    path:     /
+    defaults: { _controller: "NeoxisBundle:news:index" }
+    methods:  GET
+
+news_show:
+    path:     /{id}/show
+    defaults: { _controller: "NeoxisBundle:news:show" }
+    methods:  GET
+
+news_new:
+    path:     /new
+    defaults: { _controller: "NeoxisBundle:news:new" }
+    methods:  [GET, POST]
+
+news_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "NeoxisBundle:news:edit" }
+    methods:  [GET, POST]
+
+news_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "NeoxisBundle:news:delete" }
+    methods:  DELETE
