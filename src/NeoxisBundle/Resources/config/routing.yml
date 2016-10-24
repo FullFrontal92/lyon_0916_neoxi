@@ -27,8 +27,12 @@ neoxis_mention_legalespage:
     defaults: { _controller: NeoxisBundle:Front:mention_legales }
 
 neoxis_neo_homepage:
-    path:     /neo_home
+    path:     /
     defaults: { _controller: NeoxisBundle:Front:neo_home }
+
+neoxis_swiftmailer:
+    path:     /swiftmailer
+    defaults: { _controller: NeoxisBundle:Back:swiftmailer }
 
 
 
