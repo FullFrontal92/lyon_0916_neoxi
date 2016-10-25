@@ -44,5 +44,6 @@ class FrontController extends Controller
     {
         return $this->render('NeoxisBundle:Front:neo_home.html.twig');
     }
+
 }
 
