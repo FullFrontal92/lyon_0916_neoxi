@@ -8,6 +8,9 @@ input{ border: none; }
 a:hover{
     text-decoration: none;
 }
+.pointer:hover{
+    cursor: pointer;
+}
 .globalContainer{
     margin-top: 100px;
 }

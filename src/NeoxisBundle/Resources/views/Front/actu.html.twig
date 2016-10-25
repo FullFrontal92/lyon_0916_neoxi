@@ -1,12 +1,16 @@
-{% extends 'base.html.twig' %}
+{% extends 'neoxiBase.html.twig' %}
 {% block body %}
     <div class="container-fluid globalContainer">
         <div class="row">
             <h1 class="col-xs-10 col-xs-offset-1 titleActu">Les actualités à suivre</h1>
         </div>
-        {% include 'NeoxisBundle:Front:news.html.twig' %}
-        {% include 'NeoxisBundle:Front:news.html.twig' %}
-        {% include 'NeoxisBundle:Front:news.html.twig' %}
+
+
+        <div class="insertActu">
+
+        </div>
+
         <div class="container marginContainer"></div>
     </div>
+        <script type="text/javascript" src="{{ asset ('js/news.js')}}"></script>
 {% endblock %}

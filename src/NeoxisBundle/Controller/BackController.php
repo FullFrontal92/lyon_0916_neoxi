@@ -39,7 +39,7 @@ class BackController extends Controller
 
             $message = \Swift_Message::newInstance('Test')
                 ->setSubject($subject)
-                ->setFrom('mailneoxi@gmail.com')
+                ->setFrom(array('mailneoxi@gmail.com' => 'neoxi'))
                 ->setTo($To)
                 ->setBody($email.': 
                                   

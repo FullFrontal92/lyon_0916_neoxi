@@ -29,10 +29,12 @@
 .buttonActu{
     position: absolute;
     margin: auto;
-    top: 19vw; right: 0;
+    float: bottom;
+    right: 0;
     background-color: white;
     padding-left: 40px;
     padding-top: 8px;
+    margin-top: -45px;
     height: 50px;
 }
 .marginContainer {
