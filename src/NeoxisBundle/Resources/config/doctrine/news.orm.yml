@@ -14,10 +14,10 @@ NeoxisBundle\Entity\news:
             length: 255
         title:
             type: string
-            length: '30'
+            length: '150'
         date:
             type: string
-            length: '30'
+            length: '60'
         text:
             type: text
     lifecycleCallbacks: {  }
