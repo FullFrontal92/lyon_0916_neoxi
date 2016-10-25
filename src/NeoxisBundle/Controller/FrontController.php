@@ -34,7 +34,7 @@ class FrontController extends Controller
     {
         return $this->render('NeoxisBundle:Front:societe.html.twig');
     }
-    
+
     public function mention_legalesAction()
     {
         return $this->render('NeoxisBundle:Front:mention_legales.html.twig');
@@ -44,6 +44,5 @@ class FrontController extends Controller
     {
         return $this->render('NeoxisBundle:Front:neo_home.html.twig');
     }
-
 }
 

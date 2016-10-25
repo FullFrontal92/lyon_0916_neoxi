@@ -1,3 +1,7 @@
+neoxis_news:
+    resource: "@NeoxisBundle/Resources/config/routing/news.yml"
+    prefix:   /news
+
 neoxis_actupage:
     path:     /actu
     defaults: { _controller: NeoxisBundle:Front:actu }
@@ -29,6 +33,10 @@ neoxis_mention_legalespage:
 neoxis_neo_homepage:
     path:     /
     defaults: { _controller: NeoxisBundle:Front:neo_home }
+
+neoxis_swiftmailer:
+    path:     /swiftmailer
+    defaults: { _controller: NeoxisBundle:Back:swiftmailer }
 
 
 
