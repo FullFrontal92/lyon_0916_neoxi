@@ -1,0 +1,36 @@
+.log {
+    margin-top: 300px;
+    min-height:100px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.btn-submitlog{ /* css bloc bouton login */
+    height: 50px;
+    font-weight: bold;
+    background-color: #D2D2D2;
+    color: #4E98B3;
+    border-radius: 0px;
+    margin-top: 10px;
+}
+.formlogtxt{
+    text-align: left;
+    font-weight: bold;
+    color: #529BAC;
+    border-bottom: solid 2px #529BAC ;
+}
+.formlog{
+     height: 20px;
+     border-radius: 1px;
+     font-weight: bold;
+     background-color: #D2D2D2;
+     color: #4E98B3;
+     border-radius: 0px;
+     margin-top: 10px;
+ }
+.formlog:focus{ /* css pour les blocs de formulaire */
+    box-shadow: none;
+    border: 1px solid #4E98B3;
+
+}
