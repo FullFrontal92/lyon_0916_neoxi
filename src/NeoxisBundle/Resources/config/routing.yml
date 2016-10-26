@@ -3,8 +3,8 @@ neoxis_news:
     prefix:   /news
 
 neoxis_actupage:
-    path:     /actu
-    defaults: { _controller: NeoxisBundle:Front:actu }
+    path:     /actualite
+    defaults: { _controller: NeoxisBundle:Front:actualite }
 
 neoxis_contact:
     path:     /contact
