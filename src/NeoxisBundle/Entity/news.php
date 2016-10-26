@@ -138,4 +138,5 @@ class news
     {
         return $this->text;
     }
+
 }
