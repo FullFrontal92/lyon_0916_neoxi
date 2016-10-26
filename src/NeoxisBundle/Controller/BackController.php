@@ -1,6 +1,9 @@
 <?php
 namespace NeoxisBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\JsonResponse;
+use NeoxisBundle\Entity\news;
+use Symfony\Component\HttpFoundation\Request;
 
 class BackController extends Controller
 {
@@ -51,5 +54,4 @@ class BackController extends Controller
         header('Location:/contact');
         exit();
     }
-
 }
