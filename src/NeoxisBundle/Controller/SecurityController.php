@@ -33,6 +33,12 @@ class SecurityController extends Controller
 
     public function adminAction()
     {
-        return $this->render('security/admin.html.twig');
+        $em = $this->getDoctrine()->getManager();
+
+        $news = $em->getRepository('NeoxisBundle:news')->findAll();
+
+        return $this->render('security/admin.html.twig', array(
+            'news' => $news,
+        ));
     }
 }
