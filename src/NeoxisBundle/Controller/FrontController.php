@@ -7,7 +7,12 @@ class FrontController extends Controller
 {
     public function actuAction()
     {
-        return $this->render('NeoxisBundle:Front:actu.html.twig');
+        $em = $this->getDoctrine()->getManager();
+
+        $news = $em->getRepository('NeoxisBundle:news')->findAll();
+        return $this->render('NeoxisBundle:Front:actu.html.twig', array(
+            'news' => $news,
+        ));
     }
 
     public function contactAction()
