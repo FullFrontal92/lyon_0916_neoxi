@@ -5,7 +5,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class FrontController extends Controller
 {
-    public function actuAction()
+    public function actualiteAction()
     {
         $em = $this->getDoctrine()->getManager();
 

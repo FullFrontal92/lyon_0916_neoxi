@@ -34,7 +34,7 @@ security:
             form_login:
                 login_path: login
                 check_path: login
-                target_path_parameter: redirect_url
+                default_target_path: /admin
             logout:
                 path: logout
                 target: login
@@ -43,3 +43,7 @@ security:
             # require ROLE_ADMIN for /admin*
         - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin, roles: ROLE_ADMIN }
+        - { path: ^/news, roles: ROLE_ADMIN }
+        - { path: ^/news/, roles: ROLE_ADMIN }
+        - { path: ^/show, roles: ROLE_ADMIN }
+        - { path: ^/nouvelle_actualite, roles: ROLE_ADMIN }
