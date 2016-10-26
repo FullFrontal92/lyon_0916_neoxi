@@ -22,3 +22,5 @@ news_delete:
     path:     /{id}/delete
     defaults: { _controller: "NeoxisBundle:news:delete" }
     methods:  DELETE
+
+

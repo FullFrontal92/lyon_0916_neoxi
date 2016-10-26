@@ -52,3 +52,8 @@
     margin-right: 30px;
     height: 22vw;
 }
+.boutonEditer{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 10%;
+}

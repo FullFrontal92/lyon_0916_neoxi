@@ -1,0 +1,23 @@
+{% extends 'neoxiBase.html.twig' %}
+
+{% block body %}
+    <div class="container-fluid globalContainer">
+    <div class="row">
+        <h1>Nouvelle actualité</h1>
+    </div>
+    <h1>News creation</h1>
+
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    <input type="submit" value="Create" />
+    {{ form_end(form) }}
+
+
+    <ul>
+        <li>
+            <a href="{{ path('admin') }}">Back to the list</a>
+        </li>
+    </ul>
+        <div class="container marginContainer"></div>
+    </div>
+{% endblock %}
