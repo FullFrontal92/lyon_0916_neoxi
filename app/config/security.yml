@@ -44,4 +44,6 @@ security:
         - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin, roles: ROLE_ADMIN }
         - { path: ^/news, roles: ROLE_ADMIN }
-        - { path: ^/new, roles: ROLE_ADMIN }
+        - { path: ^/news/, roles: ROLE_ADMIN }
+        - { path: ^/show, roles: ROLE_ADMIN }
+        - { path: ^/nouvelle_actualite, roles: ROLE_ADMIN }

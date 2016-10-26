@@ -7,7 +7,6 @@ use Symfony\Component\HttpFoundation\Request;
 
 class BackController extends Controller
 {
-
     public function swiftmailerAction()
     {
         $Request = $this->getRequest();

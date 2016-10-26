@@ -3,8 +3,8 @@ neoxis_news:
     prefix:   /news
 
 neoxis_actupage:
-    path:     /actu
-    defaults: { _controller: NeoxisBundle:Front:actu }
+    path:     /actualite
+    defaults: { _controller: NeoxisBundle:Front:actualite }
 
 neoxis_contact:
     path:     /contact
@@ -37,6 +37,21 @@ neoxis_neo_homepage:
 neoxis_swiftmailer:
     path:     /swiftmailer
     defaults: { _controller: NeoxisBundle:Back:swiftmailer }
+
+create_news:
+    path:     /nouvelle_actualite
+    defaults: { _controller: NeoxisBundle:news:create_news }
+    methods:  [GET, POST]
+
+edit_news:
+    path:     /{id}/modifier_actualite
+    defaults: { _controller: NeoxisBundle:news:edit_news }
+    methods:  [GET, POST]
+
+delete_news:
+    path:     /{id}/supprimer
+    defaults: { _controller: NeoxisBundle:news:delete_news }
+    methods:  DELETE
 
 
 

@@ -121,4 +121,69 @@ class newsController extends Controller
             ->getForm()
         ;
     }
+
+        //my controlers for news form
+    public function create_newsAction(Request $request)
+    {
+        $news = new News();
+        $form = $this->createForm('NeoxisBundle\Form\newsType', $news);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($news);
+            $em->flush($news);
+
+            return $this->redirectToRoute('admin', array('id' => $news->getId()));
+        }
+
+        return $this->render('security/nouvelle_actualite.html.twig', array(
+            'news' => $news,
+            'form' => $form->createView(),
+        ));
+    }
+
+    public function edit_newsAction(Request $request, news $news)
+    {
+        $deleteForm = $this->createDelete_newsForm($news);
+        $editForm = $this->createForm('NeoxisBundle\Form\newsType', $news);
+        $editForm->handleRequest($request);
+
+        if ($editForm->isSubmitted() && $editForm->isValid()) {
+            $this->getDoctrine()->getManager()->flush();
+
+            return $this->redirectToRoute('edit_news', array('id' => $news->getId()));
+        }
+
+        return $this->render('security/modifier_actualite.html.twig', array(
+            'news' => $news,
+            'edit_form' => $editForm->createView(),
+            'delete_form' => $deleteForm->createView(),
+        ));
+    }
+
+    private function createDelete_newsForm(news $news)
+    {
+        return $this->createFormBuilder()
+            ->setAction($this->generateUrl('delete_news', array('id' => $news->getId())))
+            ->setMethod('DELETE')
+            ->getForm()
+            ;
+    }
+
+    public function delete_newsAction(Request $request, news $news)
+    {
+        $form = $this->createDeleteForm($news);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $em = $this->getDoctrine()->getManager();
+            $em->remove($news);
+            $em->flush($news);
+        }
+
+        return $this->redirectToRoute('admin');
+    }
+
+
 }
