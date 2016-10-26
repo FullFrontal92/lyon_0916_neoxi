@@ -118,11 +118,10 @@ class newsController extends Controller
         return $this->createFormBuilder()
             ->setAction($this->generateUrl('news_delete', array('id' => $news->getId())))
             ->setMethod('DELETE')
-            ->getForm()
-        ;
+            ->getForm();
     }
 
-        //my controlers for news form
+    //my controlers for news form
     public function create_newsAction(Request $request)
     {
         $news = new News();
@@ -167,8 +166,7 @@ class newsController extends Controller
         return $this->createFormBuilder()
             ->setAction($this->generateUrl('delete_news', array('id' => $news->getId())))
             ->setMethod('DELETE')
-            ->getForm()
-            ;
+            ->getForm();
     }
 
     public function delete_newsAction(Request $request, news $news)
@@ -184,6 +182,5 @@ class newsController extends Controller
 
         return $this->redirectToRoute('admin');
     }
-
 
 }
