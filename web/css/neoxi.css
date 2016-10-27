@@ -92,7 +92,7 @@ a:hover{
 }
 /*texte moyen*/
 .p4{
-    font-size: 18px;
+    font-size: 21px;
 }
 /*bouton du cadre*/
 .b2{
@@ -170,4 +170,14 @@ a:hover{
 }
 .logiciels-comp:hover{
     color: black;
+}
+.homeActu{
+    overflow: hidden;
+    max-height: 300px;
+}
+.homeActuButton{
+    background-color: #edeeef;
+    width: 98%;
+    height: 45px;
+    padding-top: 5px;
 }
