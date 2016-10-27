@@ -135,10 +135,11 @@ class newsController extends Controller
 
             return $this->redirectToRoute('admin', array('id' => $news->getId()));
         }
-
+        setlocale (LC_TIME, 'fr_FR.utf8','fra');
         return $this->render('security/nouvelle_actualite.html.twig', array(
             'news' => $news,
             'form' => $form->createView(),
+            'now' => strftime("%A %d %B, %kh%M"),
         ));
     }
 
@@ -153,11 +154,12 @@ class newsController extends Controller
 
             return $this->redirectToRoute('edit_news', array('id' => $news->getId()));
         }
-
+        setlocale (LC_TIME, 'fr_FR.utf8','fra');
         return $this->render('security/modifier_actualite.html.twig', array(
             'news' => $news,
             'edit_form' => $editForm->createView(),
             'delete_form' => $deleteForm->createView(),
+            'now' => strftime("%A %d %B, %kh%M"),
         ));
     }
 

@@ -16,6 +16,8 @@
         </style>
         {% block stylesheets %}
             <link rel="stylesheet" type="text/css" href="{{ asset ('css/login.css')}}">
+            <link rel="stylesheet" type="text/css" href="{{ asset ('css/actu.css')}}">
+            <link rel="stylesheet" type="text/css" href="{{ asset ('css/neoxi.css')}}">
 
             <link rel="stylesheet" media="screen and (max-width: 991px)" type="text/css" href="{{ asset ('css/queriesMd.css')}}">
             <link rel="stylesheet" media="screen and (max-width: 767px)" type="text/css" href="{{ asset ('css/queriesXs.css')}}">
@@ -31,7 +33,7 @@
                         <h2>ESPACE ADMINISTRATION</h2>
                     </div>
                     <div class="col-xs-4 col-md-6">
-                        <button class="back-off">DÉCONNEXION</button>
+                        <a href="{{ path('logout') }}"><button class="back-off">DÉCONNEXION</button></a>
                     </div>
                 </div>
             </div>
@@ -39,9 +41,10 @@
     </header>
     <body>
     {% block body %}{% endblock %}
-    <footer>
-
-    </footer>
+    {% block javascripts %}
+        <script type="text/javascript" src="{{ asset ('js/actu.js')}}"></script>
+        <script type="text/javascript" src="{{ asset ('js/back.js')}}"></script>
+    {% endblock %}
     </body>
 </html>
 

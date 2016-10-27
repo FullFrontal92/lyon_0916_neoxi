@@ -18,6 +18,9 @@ a:hover{
 .space-top{
     margin-top: 60px;
 }
+.space20{
+    margin-top: 20px;
+}
 /*centre le text*/
 .center{
     text-align: center;
@@ -45,6 +48,9 @@ a:hover{
     width:100%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.hidden{
+    display: none;
 }
 /*cadre dans l'image (topImg)*/
 .cadre{

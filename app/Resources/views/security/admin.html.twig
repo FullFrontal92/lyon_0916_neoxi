@@ -1,10 +1,11 @@
 {% extends 'backOfficeBase.html.twig' %}
 
 {% block body %}
-        <div class="container-fluid globalContainer">
+        <div class="container-fluid">
             <div class="row">
-                <h1 class="col-xs-10 col-xs-offset-1 titleActu">Nouvelle actualité</h1>
-                <a class="col-xs-10 col-xs-offset-1" href="{{ path('create_news') }}"><input class="button" type="button" value="Ajouter une nouvelle actualité"/></a>
+                <h1 class="col-xs-10 col-xs-offset-1 titleBack break">Administration des actualités</h1>
+                <a class="col-xs-10 col-xs-offset-1" href="{{ path('create_news') }}"><input class="AjoutActu" type="button" value="Ajouter une nouvelle actualité"/></a>
+                <div class="col-xs-10 col-xs-offset-1 border-actu"></div>
             </div>
             {% set id = -1 %}
             {% for news in news|reverse %}
@@ -26,10 +27,17 @@
                     <div class="col-xs-10 col-xs-offset-1 border-actu"></div>
                 </div>
                 <div class="boutonEditer">
-                    <a href="{{ path('edit_news', { 'id': news.id }) }}"><input class="button" type="button" value="Editer"/></a>
+                    <a href="{{ path('edit_news', { 'id': news.id }) }}"><input class="AjoutActu" type="button" value="Editer"/></a>
                 </div>
             {% endfor %}
 
         <div class="container marginContainer"></div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="getUp col-xs-12">
+                <a href="#"><img src="{{ asset('images/arrow-up.png')}}"/></a>
+            </div>
+        </div>
     </div>
 {% endblock %}
