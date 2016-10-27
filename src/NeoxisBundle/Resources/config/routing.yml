@@ -39,17 +39,17 @@ neoxis_swiftmailer:
     defaults: { _controller: NeoxisBundle:Back:swiftmailer }
 
 create_news:
-    path:     /nouvelle_actualite
+    path:     /admin/nouvelle_actualite
     defaults: { _controller: NeoxisBundle:news:create_news }
     methods:  [GET, POST]
 
 edit_news:
-    path:     /{id}/modifier_actualite
+    path:     /admin/modifier_actualite/{id}
     defaults: { _controller: NeoxisBundle:news:edit_news }
     methods:  [GET, POST]
 
 delete_news:
-    path:     /{id}/supprimer
+    path:     /admin/supprimer/{id}
     defaults: { _controller: NeoxisBundle:news:delete_news }
     methods:  DELETE
 
