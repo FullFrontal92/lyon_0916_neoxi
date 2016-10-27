@@ -3,8 +3,9 @@
 {% block body %}
         <div class="container-fluid globalContainer">
             <div class="row">
-                <h1 class="col-xs-10 col-xs-offset-1 titleActu">Nouvelle actualité</h1>
-                <a class="col-xs-10 col-xs-offset-1" href="{{ path('create_news') }}"><input class="button" type="button" value="Ajouter une nouvelle actualité"/></a>
+                <h1 class="col-xs-10 col-xs-offset-1 titleActu break">Administration des actualités</h1>
+                <a class="col-xs-10 col-xs-offset-1" href="{{ path('create_news') }}"><input class="AjoutActu" type="button" value="Ajouter une nouvelle actualité"/></a>
+                <div class="col-xs-10 col-xs-offset-1 border-actu"></div>
             </div>
             {% set id = -1 %}
             {% for news in news|reverse %}
