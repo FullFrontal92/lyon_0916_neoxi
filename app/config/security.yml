@@ -47,3 +47,4 @@ security:
         - { path: ^/news/, roles: ROLE_ADMIN }
         - { path: ^/show, roles: ROLE_ADMIN }
         - { path: ^/nouvelle_actualite, roles: ROLE_ADMIN }
+        - { path: ^/3/modifier_actualite, roles: ROLE_ADMIN }
