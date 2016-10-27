@@ -171,3 +171,13 @@ a:hover{
 .logiciels-comp:hover{
     color: black;
 }
+.homeActu{
+    overflow: hidden;
+    max-height: 300px;
+}
+.homeActuButton{
+    background-color: #edeeef;
+    width: 98%;
+    height: 45px;
+    padding-top: 5px;
+}

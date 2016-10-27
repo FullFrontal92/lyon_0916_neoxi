@@ -47,7 +47,12 @@ class FrontController extends Controller
 
     public function neo_homeAction()
     {
-        return $this->render('NeoxisBundle:Front:neo_home.html.twig');
+        $em = $this->getDoctrine()->getManager();
+
+        $news = $em->getRepository('NeoxisBundle:news')->findAll();
+        return $this->render('NeoxisBundle:Front:neo_home.html.twig', array(
+            'news' => $news,
+        ));
     }
 }
 
