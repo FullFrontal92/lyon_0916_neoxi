@@ -12,19 +12,21 @@
     margin-top: 20px;
 }
 .button {
-    background-color: #99B93A;
+    background-color: #c4d896;
     border: none;
     color: black;
     text-align: center;
     text-decoration: none;
     font-size: 12px;
     margin: auto;
-    border-radius: 10px;
-    height: 31px;
-    width: 18%;
+    border-radius: 20px;
+    height: 35px;
+    width: 128px;
     min-width: 100px;
     margin-bottom: 4px;
-
+}
+.button:hover{
+    color: white;
 }
 .buttonActu{
     position: absolute;

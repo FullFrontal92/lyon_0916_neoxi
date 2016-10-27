@@ -39,7 +39,7 @@ neoxis_swiftmailer:
     defaults: { _controller: NeoxisBundle:Back:swiftmailer }
 
 create_news:
-    path:     /admin/nouvelle_actualite
+    path:     /nouvelle_actualite
     defaults: { _controller: NeoxisBundle:news:create_news }
     methods:  [GET, POST]
 
