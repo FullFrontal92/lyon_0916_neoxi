@@ -10,3 +10,9 @@ function showActu(i) {
     actu[i].style.height = "";
     button[i].style.display = "none";
 }
+function unhideButton(){
+    document.getElementById('confirm').style.display = 'inline';
+}
+function hideButton(){
+    document.getElementById('confirm').style.display = 'none';
+}
