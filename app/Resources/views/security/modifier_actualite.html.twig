@@ -28,8 +28,11 @@
                     </div>
                     {{ form_end(edit_form) }}
                     <div class="col-xs-6 form-group">
+                        <input class="delete" type="button" value="Supprimer" onclick="unhide();">
+                    </div>
+                    <div id ="confirm" class="col-xs-12 confirm form-group">
                         {{ form_start(delete_form) }}
-                        <input class="delete" type="submit" value="Supprimer">
+                        <input class="delete" type="submit" value="Confirmer">
                         {{ form_end(delete_form) }}
                     </div>
                     <div class="form-group">
