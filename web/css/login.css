@@ -127,6 +127,9 @@ body {
 .delete:hover{
     color: white;
 }
+.confirm{
+    display: none;
+}
 .retour{
     font-size: 20px;
     margin-top: 40px;
