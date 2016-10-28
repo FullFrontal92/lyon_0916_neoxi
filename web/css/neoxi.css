@@ -189,7 +189,7 @@ a:hover{
     font-size: 18px;
 }
 
-/*switch images position in societe.html.twig depending on the device*/
+/*switch images position in societe page depending on the device*/
 @media screen and (max-width: 992px){
     #hidden-image-sm{
         display: none;
