@@ -14,7 +14,10 @@
         <div class="row block1 block-padding break">
             <h1 class="col-xs-offset-1 h1"> NOTRE HISTOIRE </h1>
             <div class="row">
-                <div class="col-sm-12 col-md-4 col-md-offset-1">
+                <div class="col-sm-12 col-md-4 center img-soc">
+                    <img src="{{ asset ('images/icone-fondator.png')}}"/>
+                </div>
+                <div class="col-sm-12 col-md-8 ">
                     <p class="p4 justify">
                         <strong>Début 2009</strong>,
 
@@ -36,16 +39,13 @@
                         partenariat pro actif, dans le grand Sud-Est.
                     </p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-md-offset-2 center">
-                    <img src="{{ asset ('images/icone-fondator.png')}}"/>
-                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-4 col-md-offset-1 center">
+        <div class="row block1 block-padding break">
+            <div class="col-sm-12 col-md-4 center img-soc" id="hidden-image-xl">
                 <img src="{{ asset ('images/icone-outils.png')}}">
             </div>
-            <div class="col-sm-12 col-md-4 col-md-offset-2">
+            <div class="col-sm-12 col-md-8 ">
                 <p class="p4 justify"> Afin d'assurer un niveau élevé de compétences, Neoxi a lié un partenariat
                     fort avec un intégrateur lyonnais reconnu de logiciels de gestion.
                     Ce partenariat a pour principale fonction l'échange d'informations à la
@@ -58,13 +58,15 @@
                     En parallèle, notre contact permanent avec le terrain nous rend attentifs
                     et réactifs aux évolutions du marché ( Web., C.R.M., ...) et aux choix
                     que nous devons faire pour répondre à ces demandes.
-                </p>
 
-                <p class="p4 justify"> L'idée directrice de cette création est de proposer des ressources
+                    L'idée directrice de cette création est de proposer des ressources
                     humaines compétentes, de proximité et surtout expérimentées aux
                     différents revendeurs informatiques, ceci sur des applications
                     précises et en restant d'une taille permettant d'être réactifs.
                 </p>
+            </div>
+            <div class="col-sm-12 col-md-4 center img-soc" id="hidden-image-sm">
+                <img src="{{ asset ('images/icone-outils.png')}}">
             </div>
         </div>
     </div>
@@ -96,23 +98,26 @@
                 <div class="caroussel col-xs-12 hideOnXs">
                     <div id="caroussel"  class="carousselBox" onmouseover="stop();" onmouseleave="play();">
                         <div class="carousselDiv">
-                            <h3>Clients</h3>
-                            <br/>
-                            <p>Revendeurs, avec des clients de la TPE à la PME,  utilisateurs de logiciels tels que la Comptabilité, la Gestion Commerciale, les Paies …
-                            En région Sud-Est et principalement en grande Région Lyonnaise.</p>
+                            <img src="{{ asset ('images/img1-carousel.jpg')}}" class="img-car">
+                            <div class="text-car">
+                                <p>Revendeurs, avec des clients de la TPE à la PME,  utilisateurs de logiciels tels que la Comptabilité, la Gestion Commerciale et les Paies.
+                                En région Sud-Est et principalement en grande Région Lyonnaise.</p>
+                            </div>
                         </div>
                         <div class="carousselDiv">
-                            <h3>Partenariat</h3>
-                            <br/>
-                            <p>Adossée à un revendeur intégrateur important mais indépendance,
-                            consommatrice de formations technico-commerciales faites par les éditeurs,
-                            Neoxi restitue tout ce savoir-faire mis à jour continuellement.</p>
+                            <img src="{{ asset ('images/img2-carousel.jpg')}}" class="img-car">
+                            <div class="text-car">
+                                <p>Adossée à un revendeur intégrateur important mais indépendance,
+                                consommatrice de formations technico-commerciales faites par les éditeurs,
+                                Neoxi restitue tout ce savoir-faire mis à jour continuellement.</p>
+                            </div>
                         </div>
                         <div class="carousselDiv">
-                            <h3>Méthodes</h3>
-                            <br/>
-                            <p>Audit, analyse, avant-vente commerciale, cahiers des charges, installation, formation, assistance,
-                                Neoxi vous accompagne tout au long du processus de mise en production de vos projets.</p>
+                            <img src="{{ asset ('images/img3-carousel.jpg')}}" class="img-car">
+                            <div class="text-car">
+                                <p>Audit, analyse, avant-vente commerciale, cahiers des charges, installation, formation, assistance,
+                                    Neoxi vous accompagne tout au long du processus de mise en production de vos projets.</p>
+                            </div>
                         </div>
                         <span class="buttonPrev" onclick="prevText();"><</span>
                         <span class="buttonNext" onclick="nextText();">></span>
