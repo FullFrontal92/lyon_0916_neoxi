@@ -18,7 +18,7 @@ function stick(){
             logo.style.marginTop = '10px';
             navMargin.style.marginTop = "0";
         } else {
-            for(var i =0; i < height.length; i++){
+            for(i =0; i < height.length; i++){
                 height[i].style.height = '100px';
             }
             logo.style.width = '';

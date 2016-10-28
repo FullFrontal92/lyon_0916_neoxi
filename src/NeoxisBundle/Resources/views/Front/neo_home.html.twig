@@ -42,66 +42,21 @@
 <div class="container-fluid globalContainer">
     <div class="row block2">
         <h1 class="h1">DERNIÈRES ACTUALITÉS</h1>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" >
-            <div class="border">
-                <img class="width100" src="{{ asset ('images/actu1_home.jpg')}}">
-                <div class="blockActu">
-                    <h2>Première actualité</h2>
-                    <p>Quae dum ita struuntur, indicatum est
-                        apud Tyrum indumentum regale textum
-                        occulte,incertum quo locante vel cuius
-                        usibus apparatum. ideoque rector provinci
-                        tunc pater Apollinaris eiusdem nominis ut
-                        conscius [...]
-                    </p>
-                    <p>
-                        <img src="{{ asset ('images/time-homePage-articles.png')}}">
-                        30 Septembre 2016
-                    </p>
-                    <a href="{{ path('neoxis_actupage') }}"><input type="button" title="cliquez" value="Lire la suite" class="b1"></a>
+        {% for news in news|reverse %}
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" >
+                    <div class="border">
+                        <img class="width100" src="{{ news.picture }}">
+                        <div class="blockActu homeActu">
+                            <h2>{{ news.title }}</h2>
+                            <p><img src="{{ asset ('images/time-homePage-articles.png')}}"> {{ news.date }}</p>
+                            <p>{{ news.text|raw }}</p>
+                        </div>
+                        <div class="homeActuButton">
+                            <a href="{{ path('neoxis_actupage') }}"><input type="button" title="cliquez" value="Lire la suite" class="b1"></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" >
-            <div class="border">
-                <img class="width100" src="{{ ('images/actu2_home.jpg')}}">
-                <div class="blockActu">
-                    <h2>Deuxième actualité</h2>
-                    <p>Quae dum ita struuntur, indicatum est
-                        apud Tyrum indumentum regale textum
-                        occulte,incertum quo locante vel cuius
-                        usibus apparatum. ideoque rector provinci
-                        tunc pater Apollinaris eiusdem nominis ut
-                        conscius [...]
-                    </p>
-                    <p>
-                        <img src="{{ asset ('images/time-homePage-articles.png')}}">
-                        30 Septembre 2016
-                    </p>
-                    <a href="{{ path('neoxis_actupage') }}"><input type="button" title="cliquez" value="Lire la suite" class="b1"></a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" >
-            <div class="border">
-                <img class="width100" src="{{ asset ('images/actu3_home.jpg')}}">
-                <div class="blockActu">
-                    <h2>Troisième actualité</h2>
-                    <p>Quae dum ita struuntur, indicatum est
-                        apud Tyrum indumentum regale textum
-                        occulte,incertum quo locante vel cuius
-                        usibus apparatum. ideoque rector provinci
-                        tunc pater Apollinaris eiusdem nominis ut
-                        conscius [...]
-                    </p>
-                    <p>
-                        <img src="{{ asset ('images/time-homePage-articles.png')}}">
-                        30 Septembre 2016
-                    </p>
-                    <a href="{{ path('neoxis_neo_homepage') }}"><input type="button" title="cliquez" value="Lire la suite" class="b1"></a>
-                </div>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 </div>
 {% endblock %}
