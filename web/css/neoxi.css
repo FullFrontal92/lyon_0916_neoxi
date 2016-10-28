@@ -83,6 +83,7 @@ a:hover{
 .p2{
     color: white;
     font-size: 20px;
+    margin-top: 30px;
 }
 /*gros texte en italique*/
 .p3{
@@ -180,4 +181,8 @@ a:hover{
     width: 98%;
     height: 45px;
     padding-top: 5px;
+}
+
+#expert-intro {
+    font-size: 18px;
 }
