@@ -4,7 +4,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use NeoxisBundle\Entity\news;
 use Symfony\Component\HttpFoundation\Request;
-
+use ReCaptcha\ReCaptcha;
 class BackController extends Controller
 {
     public function swiftmailerAction()
