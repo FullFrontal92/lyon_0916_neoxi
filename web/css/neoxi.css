@@ -24,6 +24,8 @@ a:hover{
 /*centre le text*/
 .center{
     text-align: center;
+    height: 350px;
+    padding: 79px;
 }
 .border{
     border: 1px solid #b4b4b4;
@@ -185,4 +187,17 @@ a:hover{
 
 #expert-intro {
     font-size: 18px;
+}
+
+/*switch images position in societe.html.twig depending on the device*/
+@media screen and (max-width: 992px){
+    #hidden-image-sm{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px){
+    #hidden-image-xl{
+        display: none;
+    }
 }
