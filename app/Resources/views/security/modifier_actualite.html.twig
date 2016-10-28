@@ -28,12 +28,17 @@
                     </div>
                     {{ form_end(edit_form) }}
                     <div class="col-xs-6 form-group">
-                        <input class="delete" type="button" value="Supprimer" onclick="unhide();">
+                        <input class="delete" type="button" value="Supprimer" onclick="unhideButton();">
                     </div>
-                    <div id ="confirm" class="col-xs-12 confirm form-group">
-                        {{ form_start(delete_form) }}
-                        <input class="delete" type="submit" value="Confirmer">
-                        {{ form_end(delete_form) }}
+                    <div id ="confirm" class="form-group">
+                        <div class="col-xs-6">
+                            <input class="AjoutActu" type="submit" value="annuler" onclick="hideButton();">
+                        </div>
+                        <div class="col-xs-6">
+                            {{ form_start(delete_form) }}
+                            <input class="delete" type="submit" value="Confirmer">
+                            {{ form_end(delete_form) }}
+                        </div>
                     </div>
                     <div class="form-group">
                         <a href="{{ path('admin') }}"><input class="btn retour" type="submit" value="<- Retour à l'accueil"></a>
