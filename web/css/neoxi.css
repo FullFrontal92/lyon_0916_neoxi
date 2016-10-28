@@ -83,6 +83,7 @@ a:hover{
 .p2{
     color: white;
     font-size: 20px;
+    margin-top: 30px;
 }
 /*gros texte en italique*/
 .p3{
@@ -171,6 +172,12 @@ a:hover{
 .logiciels-comp:hover{
     color: black;
 }
+.margLogiciel{
+    margin-bottom: 70px;
+}
+.margDevLogiciel{
+    margin-top: 26px;
+}
 .homeActu{
     overflow: hidden;
     max-height: 300px;
@@ -180,4 +187,25 @@ a:hover{
     width: 98%;
     height: 45px;
     padding-top: 5px;
+}
+
+#expert-intro {
+    font-size: 18px;
+}
+
+/*switch images position in societe page depending on the device*/
+@media screen and (max-width: 992px){
+    #hidden-image-sm{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px){
+    #hidden-image-xl{
+        display: none;
+    }
+}
+.img-soc{
+    height: 350px;
+    padding: 79px;
 }
