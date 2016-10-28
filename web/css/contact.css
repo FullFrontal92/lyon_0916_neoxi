@@ -18,7 +18,8 @@
 }
 
 .gmap{ /* css pour le conteneur fluid avec le bloc google map */
-    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: -13px;
 }
 
 .responsive-map{ /* map google a rendre responsive */
@@ -26,7 +27,8 @@
     justify-content: center;
     padding: 0;
     overflow:hidden;
-    height: 632px;
+    height: 400px;
+    width: 700px;
 }
 
 
@@ -49,7 +51,7 @@
     height: 62px;
     border: 1px solid black;
     border-radius: 0;
-
+    margin-left: -13px;
 }
 .form-control:focus{ /* css pour les blocs de formulaire */
     box-shadow: none;
@@ -57,9 +59,8 @@
 
 }
 #com{ /* css pour le bloc message uniquement */
-    width: 581px;
-    height: 255px;
-
+    width: 456px;
+    height: 62px;
 }
 
 .btn-submit{ /* css bloc bouton */
@@ -69,33 +70,32 @@
     color: #4E98B3;
     border-radius: 0px;
     margin-top: 10px;
-    float: right;
-    margin-right: -126px;
+    margin-left: 354px;
 }
 
 .coorbox{ /* css pour la zone coordonnées */
     margin-top: 8px;
-
-
-
 }
 
 #coortxt{ /* css pour le text coordonnées */
-    text-align: left;
     font-weight: bold;
     color: #529BAC;
     border-bottom: solid 4px #529BAC ;
-    padding: 0;
 }
 
 #infocoor{ /* css pour les infos des coordonnées */
-    text-align: left;
     font-size: 22px;
     font-family: 'Libre Franklin', sans-serif;
-    margin-top: 15px;
-
+    width: 350px;
+    margin-left: -40px;
+    margin-top: 45px;
 }
 .form{ /* dernier conteneur fluid */
     margin-bottom: 132px;
 }
 
+.imgBureau{
+   height: 200px;
+    width: 300px;
+    margin-left: 38px;
+}

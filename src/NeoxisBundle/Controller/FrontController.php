@@ -2,9 +2,11 @@
 namespace NeoxisBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Doctrine\ORM\EntityRepository;
 
 class FrontController extends Controller
 {
+
     public function actualiteAction()
     {
         $em = $this->getDoctrine()->getManager();
@@ -48,11 +50,12 @@ class FrontController extends Controller
     public function neo_homeAction()
     {
         $em = $this->getDoctrine()->getManager();
-
-        $news = $em->getRepository('NeoxisBundle:news')->findAll();
+        $query = $em->createQuery('SELECT p FROM NeoxisBundle:news p ORDER BY p.id DESC')->setMaxResults(3);
+        $news = $query->getResult();
         return $this->render('NeoxisBundle:Front:neo_home.html.twig', array(
             'news' => $news,
         ));
+
     }
 }
 
