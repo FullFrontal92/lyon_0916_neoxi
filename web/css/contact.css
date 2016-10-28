@@ -28,13 +28,11 @@
     padding: 0;
     overflow:hidden;
     height: 400px;
-    width: 700px;
+    margin-top: 40px;
 }
 
-
-
 #fctxt{ /* css pour le text du bloc formulaire de contact */
-    margin-left: 67px;
+    padding: 0;
     text-align: left;
     font-weight: bold;
     color: #529BAC;
@@ -43,7 +41,6 @@
 
 .form-group{ /* css pour l'espace qui englobe tout le formulaire */
     margin-left: 67px;
-    width: 456px;
 
 }
 
@@ -51,7 +48,6 @@
     height: 62px;
     border: 1px solid black;
     border-radius: 0;
-    margin-left: -13px;
 }
 .form-control:focus{ /* css pour les blocs de formulaire */
     box-shadow: none;
@@ -59,8 +55,8 @@
 
 }
 #com{ /* css pour le bloc message uniquement */
-    width: 456px;
-    height: 62px;
+    min-width: 100%;
+    height: 100px;
 }
 
 .btn-submit{ /* css bloc bouton */
@@ -70,7 +66,7 @@
     color: #4E98B3;
     border-radius: 0px;
     margin-top: 10px;
-    margin-left: 354px;
+    float: right;
 }
 
 .coorbox{ /* css pour la zone coordonnées */
@@ -86,16 +82,10 @@
 #infocoor{ /* css pour les infos des coordonnées */
     font-size: 22px;
     font-family: 'Libre Franklin', sans-serif;
-    width: 350px;
-    margin-left: -40px;
-    margin-top: 45px;
 }
 .form{ /* dernier conteneur fluid */
     margin-bottom: 132px;
 }
-
 .imgBureau{
-   height: 200px;
-    width: 300px;
-    margin-left: 38px;
+    padding: 0;
 }
