@@ -4,7 +4,7 @@ h1 a{
 }
 .button-contact{
     margin-top: -20px !important;
-    margin-left: 120px !important;
+    margin-left: 43px !important;
 }
 /* ajustemeent du formulaire */
 .form-group{ /* css pour l'espace qui englobe tout le formulaire */
@@ -14,3 +14,4 @@ h1 a{
 #com{
     width: 150px;
 }
+
