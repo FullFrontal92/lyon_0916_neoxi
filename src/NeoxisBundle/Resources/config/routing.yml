@@ -1,0 +1,59 @@
+neoxis_news:
+    resource: "@NeoxisBundle/Resources/config/routing/news.yml"
+    prefix:   /news
+
+neoxis_actupage:
+    path:     /actualite
+    defaults: { _controller: NeoxisBundle:Front:actualite }
+
+neoxis_contact:
+    path:     /contact
+    defaults: { _controller: NeoxisBundle:Front:contact }
+
+neoxis_notre_expertisepage:
+    path:     /notre_expertise
+    defaults: { _controller: NeoxisBundle:Front:notre_expertise }
+
+neoxis_nos_engagementspage:
+    path:     /nos_engagements
+    defaults: { _controller: NeoxisBundle:Front:nos_engagements }
+
+neoxis_logiciels_referencespage:
+    path:     /logiciels_references
+    defaults: { _controller: NeoxisBundle:Front:logiciels_references }
+
+neoxis_societepage:
+    path:     /societe
+    defaults: { _controller: NeoxisBundle:Front:societe }
+
+neoxis_mention_legalespage:
+    path:     /mention_legales
+    defaults: { _controller: NeoxisBundle:Front:mention_legales }
+
+neoxis_neo_homepage:
+    path:     /
+    defaults: { _controller: NeoxisBundle:Front:neo_home }
+
+neoxis_swiftmailer:
+    path:     /swiftmailer
+    defaults: { _controller: NeoxisBundle:Back:swiftmailer }
+
+create_news:
+    path:     /nouvelle_actualite
+    defaults: { _controller: NeoxisBundle:news:create_news }
+    methods:  [GET, POST]
+
+edit_news:
+    path:     /admin/modifier_actualite/{id}
+    defaults: { _controller: NeoxisBundle:news:edit_news }
+    methods:  [GET, POST]
+
+delete_news:
+    path:     /admin/supprimer/{id}
+    defaults: { _controller: NeoxisBundle:news:delete_news }
+    methods:  DELETE
+
+
+
+
+

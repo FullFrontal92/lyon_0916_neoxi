@@ -1,0 +1,134 @@
+{% extends 'neoxiBase.html.twig' %}
+{% block body %}
+    <div class="container-fluid globalContainer break" > <!-- home page image and text bloc -->
+        <div class="row">
+            <div class="col-xs-12 topImg" style="background-image: url('images/comptabilité1.jpg');">
+                <div class="col-sm-5 col-sm-offset-3 col-lg-5 col-lg-offset-6 cadre">
+                    <h2 class="h2">NEOXI</h2>
+                    <p class="p2">Neoxi a été créée pour les revendeurs de logiciels de gestion,
+                        partenaire commercial et technique fiable.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row block1 block-padding break">
+            <h1 class="col-xs-offset-1 h1"> NOTRE HISTOIRE </h1>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 center img-soc">
+                    <img src="{{ asset ('images/icone-fondator.png')}}" class="story-img"/>
+                </div>
+                <div class="col-sm-12 col-md-8 ">
+                    <p class="p4 justify">
+                        <strong>Début 2009</strong>,
+
+                        Jean-Luc Galvagnon, ancien co-fondateur d'un Centre de Compétence <strong>Sage PME-MGE</strong> reconnu en région lyonnaise et ayant une parfaite connaissance du réseau de
+                        distribution des logiciels de gestion, décide de créer la Société <strong>Neoxi</strong>.<br/><br/>
+
+                        Issue de 20 ans d’expertise, l'idée directrice de cette création est de proposer aux
+                        revendeurs informatiques des ressources humaines compétentes, de proximité et surtout expérimentées.<br/>
+
+                        Ceci sur des applications précises et en restant  à une taille permettant d'être réactifs.<br/><br/>
+
+                        Aux nombreux revendeurs ayant des difficultés de ressources opérationnelles
+                        lors de différentes campagnes :<br/>
+                        - Opérations commerciales (salons, présentations  démonstrations avant-ventes, JPO) <br/>
+                        - Déploiements techniques et/ou mises à jour fonctionnelles obligatoires <br/>
+                        - Campagne de déclaration DADS U, Campagne fiscale <br/><br/>
+
+                        Neoxi propose ses services en tant que sous-traitant dans le cadre d'un
+                        partenariat pro actif, dans le grand Sud-Est.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row block1 block-padding break">
+            <div class="col-sm-12 col-md-4 center img-soc" id="hidden-image-xl">
+                <img src="{{ asset ('images/icone-outils.png')}}" class="story-img">
+            </div>
+            <div class="col-sm-12 col-md-8 ">
+                <p class="p4 justify"> Afin d'assurer un niveau élevé de compétences, Neoxi a lié un partenariat
+                    fort avec un intégrateur lyonnais reconnu de logiciels de gestion.
+                    Ce partenariat a pour principale fonction l'échange d'informations à la
+                    fois techniques et commerciales sur les différents logiciels déployés :
+                    opérations commerciales en cours, formations fonctionnelles, nouveautés techniques et assistance.<br/><br/>
+
+                    Sur certaines compétences, cette synergie vous permet de bénéficier
+                    d'une offre réactualisée plus large correspondant à vos attentes.<br/>
+
+                    En parallèle, notre contact permanent avec le terrain nous rend attentifs
+                    et réactifs aux évolutions du marché (Web, C.R.M.) et aux choix
+                    que nous devons faire pour répondre à ces demandes.<br/><br/>
+
+                    L'idée directrice de cette création est de proposer des ressources
+                    humaines compétentes, de proximité et surtout expérimentées aux
+                    différents revendeurs informatiques, ceci sur des applications
+                    précises et en restant d'une taille permettant d'être réactifs.
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-4 center img-soc" id="hidden-image-sm">
+                <img src="{{ asset ('images/icone-outils.png')}}">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid globalContainer">
+        <div class="row block2">
+            <h1 class="h1">TRAVAILLER AVEC NOUS</h1>
+            <div class="row">
+                <div class="showOnXs">
+                    <div class="carousselSmall">
+                        <h3>Clients</h3>
+                        <p>Revendeurs, avec des clients de la TPE à la PME,  utilisateurs de logiciels tels que la Comptabilité, la Gestion Commerciale, les Paies …
+                            En région Sud-Est et principalement en grande Région Lyonnaise.</p>
+
+                    </div>
+                    <div class="carousselSmall">
+                        <h3>Partenariat</h3>
+                        <br/>
+                        <p>Adossée à un revendeur intégrateur important mais indépendance,
+                            consommatrice de formations technico-commerciales faites par les éditeurs,
+                            Neoxi restitue tout ce savoir-faire mis à jour continuellement.</p>
+                    </div>
+                    <div class="carousselSmall margin-b-car">
+                        <h3>Méthodes</h3>
+                        <br/>
+                        <p>Audit, analyse, avant-vente commerciale, cahiers des charges, installation, formation, assistance,
+                            Neoxi vous accompagne tout au long du processus de mise en production de vos projets.</p>
+                    </div>
+                </div>
+                <div class="caroussel col-xs-12 hideOnXs">
+                    <div id="caroussel"  class="carousselBox" onmouseover="stop();" onmouseleave="play();">
+                        <div class="carousselDiv">
+                            <img src="{{ asset ('images/img1-carousel.jpg')}}" class="img-car">
+                            <div class="text-car">
+                                <p>Revendeurs, avec des clients de la TPE à la PME,  utilisateurs de logiciels tels que la Comptabilité, la Gestion Commerciale et les Paies.
+                                En région Sud-Est et principalement en grande Région Lyonnaise.</p>
+                            </div>
+                        </div>
+                        <div class="carousselDiv">
+                            <img src="{{ asset ('images/img2-carousel.jpg')}}" class="img-car">
+                            <div class="text-car">
+                                <p>Adossée à un revendeur intégrateur important mais indépendance,
+                                consommatrice de formations technico-commerciales faites par les éditeurs,
+                                Neoxi restitue tout ce savoir-faire mis à jour continuellement.</p>
+                            </div>
+                        </div>
+                        <div class="carousselDiv">
+                            <img src="{{ asset ('images/img3-carousel.jpg')}}" class="img-car">
+                            <div class="text-car">
+                                <p>Audit, analyse, avant-vente commerciale, cahiers des charges, installation, formation, assistance,
+                                    Neoxi vous accompagne tout au long du processus de mise en production de vos projets.</p>
+                            </div>
+                        </div>
+                        <span class="buttonPrev" onclick="prevText();"><</span>
+                        <span class="buttonNext" onclick="nextText();">></span>
+                    </div>
+                    <div id="titlesCaroussel" class="titlesCaroussel" onmouseover="stop();"  onmouseleave="play();">
+                        <div style="color: black" class="col-xs-4 boutonCarroussel" onclick="selectText(0);">CLIENTS</div>
+                        <div class="col-xs-4 boutonCarroussel borderBoutons" onclick="selectText(1);">PARTENARIAT</div>
+                        <div class="col-xs-4 boutonCarroussel" onclick="selectText(2);">MÉTHODES</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

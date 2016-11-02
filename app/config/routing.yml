@@ -1,0 +1,24 @@
+neoxis:
+    resource: "@NeoxisBundle/Resources/config/routing.yml"
+    prefix:   /
+
+logout:
+    path:     /logout
+
+login:
+    path:     /login
+    defaults: { _controller: NeoxisBundle:Security:login }
+
+admin:
+    path:     /admin
+    defaults: { _controller: NeoxisBundle:Security:admin }
+
+
+
+
+
+
+
+
+
+

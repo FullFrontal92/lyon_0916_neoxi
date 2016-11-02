@@ -1,0 +1,43 @@
+{% extends 'backOfficeBase.html.twig' %}
+
+{% block body %}
+        <div class="container-fluid">
+            <div class="row">
+                <h1 class="col-xs-10 col-xs-offset-1 titleBack break">Administration des actualités</h1>
+                <a class="col-xs-10 col-xs-offset-1" href="{{ path('create_news') }}"><input class="AjoutActu" type="button" value="Ajouter une nouvelle actualité"/></a>
+                <div class="col-xs-10 col-xs-offset-1 border-actu"></div>
+            </div>
+            {% set id = -1 %}
+            {% for news in news|reverse %}
+                {% set id = id + 1 %}
+                <div class="row zoneActu">
+                    <div class="marginActu">
+                        <div class="actuHeight col-xs-12">
+                            <img class="imgFloat" src="{{ news.picture }}">
+                            <h1>{{ news.title }}</h1>
+                            <p><img src="{{ asset ('images/time-homePage-articles.png')}}"> {{ news.date }}</p>
+                            <p class="justify">{{ news.text|raw }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="buttonActu col-xs-6 col-xs-offset-6">
+                        <input class="button" type="button" value="Lire la suite" onclick="showActu({{ id }});"/>
+                    </div>
+                    <div class="col-xs-10 col-xs-offset-1 border-actu"></div>
+                </div>
+                <div class="boutonEditer">
+                    <a href="{{ path('edit_news', { 'id': news.id }) }}"><input class="AjoutActu" type="button" value="Editer"/></a>
+                </div>
+            {% endfor %}
+
+        <div class="container marginContainer"></div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="getUp col-xs-12">
+                <img class="pointer" src="{{ asset('images/arrow-up.png')}}" onclick="goTop()"/>
+            </div>
+        </div>
+    </div>
+{% endblock %}

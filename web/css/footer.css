@@ -1,0 +1,38 @@
+#footer { /* css for the footer has a block */
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    background-color: #010101;
+    height: auto;
+    height: 100%;
+    font-size: 0.8em;
+}
+
+.footerFluid { /* css for the container fluid in the block */
+    width: auto;
+    max-width: 100%;
+    padding-top: 25px;
+    position: relative;
+    text-align: center;
+}
+
+
+.container .text-muted {
+    margin: 20px 0;
+}
+.footertext { /* css for the footer text */
+    font-size: 19px;
+    color: white;
+    margin-top: 5px;
+}
+.mentions { /* css for the legal notice */
+    margin-top: 10px;
+    color: white;
+    font-size: 13px;
+}
+.imgFooter { /* css for the image icon in the footer */
+    height: 40px;
+}
+.classRowFooter { /* css for the div surrouding the image */
+    margin-top: 10px;
+}
