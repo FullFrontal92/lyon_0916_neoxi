@@ -126,10 +126,10 @@
     padding-right: 0;
 }
 #logoColors{
+    margin-left: -37px;
+    margin-top: 14px;
+    width: 199px;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     transition: 0.5s;
-    margin-left: -35px;
-    margin-top: 20px;
-    width: 160px;
 }

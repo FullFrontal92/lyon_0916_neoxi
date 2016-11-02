@@ -93,4 +93,13 @@ h1#last-news {
     font-size: 45px;
 }
 
+/*Page société: position icone*/
 
+.story-img {
+    margin-top: 2%;
+}
+
+.img-soc{
+    padding-top: 0;
+    height: 250px;
+}
