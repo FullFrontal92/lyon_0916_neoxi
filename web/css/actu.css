@@ -42,14 +42,11 @@
 .marginContainer { /* css for the margin container out of the for loop */
     margin-bottom: 100px;
 }
-
 /**/
 .imgFloat{ /* css for the img in the article */
     float: left; width: 50%;
     padding: 10px;
 }
-
-
 .marginActu{ /* css for the text */
     overflow: hidden;
     margin-left: 30px;
