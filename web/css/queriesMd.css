@@ -82,7 +82,8 @@
 .button-contact{
     display: inline;
     margin-left: 15px;
-    margin-top: 34px;
+    margin-top: 20px;
+    font-size: 30px;
 }
 
 /*modification du comportement de la navbar en format mobile*/
@@ -156,6 +157,7 @@
     height: 80vw;
 }
 
+
 /*Page société: position icone*/
 
 .story-img {
@@ -165,4 +167,13 @@
 .img-soc{
     padding-top: 0;
     height: 250px;
+}
+
+.header-height{
+    height: 80px;
+}
+#logoColors{
+    margin-left: -35px;
+    margin-top: 17px;
+    width: 110px;
 }
