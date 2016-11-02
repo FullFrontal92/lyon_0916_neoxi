@@ -174,7 +174,7 @@ a:hover{
 }
 /*pour le bouton/text sage*/
 .logiciels-sage{
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: none;
     font-weight: bold;
     color: #0b4b2d;
@@ -184,7 +184,7 @@ a:hover{
 }
 /*pour le bouton/text compagnons*/
 .logiciels-comp{
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: none;
     font-weight: bold;
     color: black;
