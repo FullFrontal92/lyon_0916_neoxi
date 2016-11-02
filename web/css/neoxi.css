@@ -198,10 +198,19 @@ a:hover{
 .homeActuButton{
     background-color: #edeeef;
     width: 98%;
-    height: 45px;
-    padding-top: 5px;
+    height: 40px;
+    padding-top: 0px;
 }
-
+.buttonActuHome{ /* css for the actu button */
+    position: relative;
+    margin: auto;
+    float: bottom;
+    width: 100%;
+    background: linear-gradient(to top, #edeeef, rgba(255,255,255,0));
+    padding-top: 58px;
+    margin-top: -55px;
+    height: 60px;
+}
 #expert-intro {
     font-size: 18px;
 }
@@ -222,7 +231,9 @@ a:hover{
     height: 500px;
     padding: 79px;
 }
-
 .story-img {
     margin-top: 25%;
+}
+.story-img2{
+    margin-top: 70px;
 }
