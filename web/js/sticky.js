@@ -15,7 +15,7 @@ window.onscroll = function stick(){
                 height[i].style.height = '50px';
             }
             /*we reduce size, margin of the elements accordingly*/
-            logo.style.width = '80px';
+            logo.style.width = '120px';
             logo.style.marginLeft = '-30px';
             logo.style.marginTop = '10px';
             navMargin.style.marginTop = "0";
