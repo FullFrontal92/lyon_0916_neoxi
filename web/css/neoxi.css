@@ -231,7 +231,17 @@ a:hover{
     height: 500px;
     padding: 79px;
 }
-
 .story-img {
     margin-top: 25%;
+}
+
+.story-img2{
+    margin-top: 70px;
+}
+
+/* changed font-size for the carroussel text */
+@media screen and (max-width: 1100px) {
+    .boutonCarroussel {
+        font-size: 35px;
+    }
 }
