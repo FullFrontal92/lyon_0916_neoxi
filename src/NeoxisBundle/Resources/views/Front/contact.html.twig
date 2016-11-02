@@ -32,8 +32,8 @@
                 <div>VOTRE MESSAGE:
                     <textarea class="form-control" placeholder="VOTRE MESSAGE" id="com" name="message" required></textarea>
                     </br>
-                    <div class="g-recaptcha" data-sitekey="6LdkigoUAAAAAMKcVAglm3Ve403815BaTAyzgN85"></div>
-                    <button type="submit" class="btn btn-submit">ENVOYER</button>
+                    <div class="g-recaptcha" data-sitekey="6LdkigoUAAAAAMKcVAglm3Ve403815BaTAyzgN85" data-callback="enableBtn"></div>
+                    <button type="submit" class="btn btn-submit" id="rebtn">ENVOYER</button>
                 </div>
                 <div>{{ app.request.get('sended') }}</div>
             </form>
@@ -53,12 +53,14 @@
                     <div class="col-xs-12 col-md-7">
                         <p id="infocoor">GREENOPOLIS  31, RUE SAINT-SIMON 69009 LYON</br>
                            Tel: 04.27.11.86.00</p>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
+{% endblock %}
+{% block javascripts %}
+<script type="text/javascript" src="{{ asset ('js/contact.js')}}"></script>
 {% endblock %}

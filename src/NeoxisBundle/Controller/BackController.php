@@ -5,8 +5,17 @@ use ReCaptcha\ReCaptcha;
 
 class BackController extends Controller
 {
-    public function swiftmailerAction()
+    public function swiftmailerAction($gRecaptchaResponse, $remoteIp)
     {
+        $secret = '6LdkigoUAAAAAJrqN9Eyl48CMqbEqWczvPmzDXw8';
+        $recaptcha = new \ReCaptcha\ReCaptcha($secret);
+        $resp = $recaptcha->verify($gRecaptchaResponse, $remoteIp);
+        if ($resp->isSuccess()) {
+            // verified!
+        } else {
+            $errors = $resp->getErrorCodes();
+        }
+
         $Request = $this->getRequest();
         if ($Request->getMethod() == "POST") {
 

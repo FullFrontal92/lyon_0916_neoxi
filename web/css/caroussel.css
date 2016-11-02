@@ -4,7 +4,7 @@
 .showOnXs{
     display: none;
 }
-.carousselDiv{
+.carousselDiv{ /* div for the carousel */
     background-color: white;
     text-align: justify;
     padding-left: 80px;
@@ -17,13 +17,13 @@
     -moz-transform: translate(0%, -50%);
     transform: translate(0%, -50%);
 }
-.caroussel{
+.caroussel{ /* carousel css */
     padding-left: 0;
     height: 500px;
     width: 100%;
     overflow: hidden;
 }
-.titlesCaroussel{
+.titlesCaroussel{ /* css for the carousel */
     position: absolute;
     height: 100px;
     width: 90%;
@@ -32,7 +32,7 @@
     background-color: #529BAC;
     padding-bottom: 20px;
 }
-.carousselBox{
+.carousselBox{ /* box for the articles */
     position: absolute;
     height: 100%;
     width: 90%;
@@ -40,7 +40,7 @@
     margin-right: 5%;
     overflow: hidden;
 }
-.buttonPrev{
+.buttonPrev{ /* css fot the prev btn */
     position:absolute;
     margin:auto; top:0; bottom:0; left: 20px;
     height: 40px;
@@ -51,7 +51,7 @@
     transform: translate(0%, -50%);
     font-size: 80px;
 }
-.buttonNext{
+.buttonNext{ /* css for the next btn */
     position:absolute;
     margin:auto; top:0; bottom:0; right:20px;
     height: 40px;
@@ -62,15 +62,15 @@
     transform: translate(0%, -50%);
     font-size: 80px;
 }
-.buttonPrev:hover{
+.buttonPrev:hover{ /* btn prev hover */
     color: grey;
     cursor: pointer;
 }
-.buttonNext:hover{
+.buttonNext:hover{ /* btn next hover */
     color: grey;
     cursor: pointer;
 }
-.boutonCarroussel{
+.boutonCarroussel{ /* carousel btn */
     color: white;
     font-size: 40px;
     height: 100%;
@@ -78,15 +78,15 @@
     padding-top: 10px;
     text-align: center;
 }
-.borderBoutons{
+.borderBoutons{ /* border for the carousel btn */
     border-left: 2px solid white;
     border-right: 2px solid white;
 }
-.boutonCarroussel:hover{
+.boutonCarroussel:hover{ /* hover fot the carousel btn */
     cursor: pointer;
 }
 
-.img-car {
+.img-car { /* img for the carousel */
     position: absolute;
     margin: auto;
     left: 0;
@@ -95,7 +95,7 @@
     bottom: 0;
 }
 
-.text-car{
+.text-car{ /* text for the carousel */
     position: absolute;
     width: 500px;
     margin: auto;
