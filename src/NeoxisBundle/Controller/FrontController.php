@@ -19,6 +19,7 @@ class FrontController extends Controller
 
     public function contactAction()
     {
+
         return $this->render('NeoxisBundle:Front:contact.html.twig');
     }
 

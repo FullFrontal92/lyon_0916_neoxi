@@ -1,17 +1,17 @@
-.titleActu {
+.titleActu { /* css for the title */
      text-align: left;
      border-bottom: 4px solid #99B93A;
  }
-.zoneActu {
+.zoneActu { /* css for the actu zone */
     padding: 45px 10px 0 25px;
     margin-left: 40px; margin-right: 40px;
     overflow: hidden;
 }
-.border-actu{
+.border-actu{ /* css for the border of the actu zone */
     border-bottom: 1px solid #7f8483;
     margin-top: 20px;
 }
-.button {
+.button { /* css for the button */
     background-color: #c4d896;
     border: none;
     color: black;
@@ -28,7 +28,7 @@
 .button:hover{
     color: white;
 }
-.buttonActu{
+.buttonActu{ /* css for the actu button */
     position: absolute;
     margin: auto;
     float: bottom;
@@ -39,16 +39,16 @@
     margin-top: -45px;
     height: 50px;
 }
-.marginContainer {
+.marginContainer { /* css for the margin container out of the for loop */
     margin-bottom: 100px;
 }
 
 /**/
-.imgFloat{
+.imgFloat{ /* css for the img in the article */
     float: left; width: 50%;
     padding: 10px;
 }
-.marginActu{
+.marginActu{ /* css for the text
     overflow: hidden;
     margin-left: 30px;
     margin-right: 30px;
