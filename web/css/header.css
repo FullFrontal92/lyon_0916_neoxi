@@ -67,6 +67,9 @@
 }
 /*taille du header*/
 .header-height{
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
     height: 100px;
 }
 .img-logo{
@@ -104,6 +107,9 @@
 }
 /*on positionne la navbar*/
 .margin-nav{
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
     margin-top: 26px;
 }
 /*les borders c'est moche*/
@@ -120,7 +126,10 @@
     padding-right: 0;
 }
 #logoColors{
-    margin-left: -35px;
-    margin-top: 20px;
-    width: 160px;
+    margin-left: -37px;
+    margin-top: 14px;
+    width: 199px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
 }

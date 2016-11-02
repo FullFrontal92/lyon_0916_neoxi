@@ -84,6 +84,7 @@
 }
 .boutonCarroussel:hover{ /* hover fot the carousel btn */
     cursor: pointer;
+    color: #333134;
 }
 
 .img-car { /* img for the carousel */
