@@ -84,6 +84,7 @@
 }
 .boutonCarroussel:hover{
     cursor: pointer;
+    color: #333134;
 }
 
 .img-car {
