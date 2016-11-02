@@ -226,3 +226,10 @@ a:hover{
 .story-img {
     margin-top: 25%;
 }
+
+/* changed font-size for the carroussel text */
+@media screen and (max-width: 1100px) {
+    .boutonCarroussel {
+        font-size: 35px;
+    }
+}
