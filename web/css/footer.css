@@ -36,3 +36,7 @@
 .classRowFooter { /* css for the div surrouding the image */
     margin-top: 10px;
 }
+
+.mentions a {
+    color: #9cc628;
+}
