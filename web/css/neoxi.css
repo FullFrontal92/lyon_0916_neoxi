@@ -231,7 +231,9 @@ a:hover{
     height: 500px;
     padding: 79px;
 }
-
 .story-img {
     margin-top: 25%;
+}
+.story-img2{
+    margin-top: 70px;
 }
