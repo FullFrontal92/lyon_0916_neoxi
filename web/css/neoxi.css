@@ -1,5 +1,18 @@
 /*police pour l'ensemble*/
 *{ font-family: 'Raleway', sans-serif;}
+
+/*police pour ressources informatique - attente confirmation client*/
+/*@font-face{
+    font-family:"Mistral";
+    src:url("http://www.myfontfree.com/data/1/m/mistral/design.graffiti.mistral.ttf");
+}
+#specific-font {
+    font-family: 'Mistral', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 10px;
+} */
+
 /*suppression des pointillés autour des blocs sur mozilla*/
 *|*:-moz-any-link:focus { outline: none;}
 /*supression des bordures des boutons*/
@@ -206,6 +219,10 @@ a:hover{
     }
 }
 .img-soc{
-    height: 350px;
+    height: 500px;
     padding: 79px;
+}
+
+.story-img {
+    margin-top: 25%;
 }
