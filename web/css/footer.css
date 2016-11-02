@@ -36,3 +36,7 @@
 .classRowFooter {
     margin-top: 10px;
 }
+
+.mentions a {
+    color: #9cc628;
+}
