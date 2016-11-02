@@ -156,6 +156,19 @@
     margin-right: 30px;
     height: 80vw;
 }
+
+
+/*Page société: position icone*/
+
+.story-img {
+    margin-top: 2%;
+}
+
+.img-soc{
+    padding-top: 0;
+    height: 250px;
+}
+
 .header-height{
     height: 80px;
 }
