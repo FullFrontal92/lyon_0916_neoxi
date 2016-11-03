@@ -209,7 +209,7 @@ a:hover{
     background-color: #edeeef;
     width: 98%;
     height: 40px;
-    padding-top: 0px;
+    padding-top: 0;
 }
 .buttonActuHome{ /* css for the actu button */
     position: relative;

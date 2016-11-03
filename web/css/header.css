@@ -105,6 +105,9 @@
 .navbar-default .navbar-toggle{
     border: 0;
 }
+.navbar-collapse{
+    border-top: none !important;
+}
 /*on positionne la navbar*/
 .margin-nav{
     -webkit-transition: 0.5s;
@@ -132,4 +135,7 @@
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     transition: 0.5s;
+}
+.button-contactXXs{
+    display: none;
 }
