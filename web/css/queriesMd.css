@@ -1,6 +1,5 @@
 .hideOnMd{
-    width: 150px;
-    display: inline-block;
+    display: none !important;
 }
 /*correction spécifique pour le header (pour le hamburger en format md)*/
 .navbar-collapse.collapse {
@@ -191,4 +190,8 @@
 
 .space20 {
     margin-left: 18%;
+}
+
+.imgBureau {
+    width: 150px;
 }
