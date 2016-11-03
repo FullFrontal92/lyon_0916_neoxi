@@ -27,3 +27,21 @@ h1 a{
     width: 150px;
 }
 
+.h1 {
+    text-align: center;
+    margin-left: 0;
+}
+
+/* Adjusting actu title size on mobile */
+
+.titleNews {
+    font-size: 18px;
+}
+
+/*Adjusting cadre size for each page */
+.expert {
+    height: 210px;
+}
+.engag {
+    height: 165px;
+}
