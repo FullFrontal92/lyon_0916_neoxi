@@ -80,8 +80,10 @@
 }
 /*bouton contact aparent (en dehors du hamburger) en format mobile*/
 .button-contact{
+    text-align: center;
     display: inline;
     margin-left: 15px;
+    padding-right: -15px;
     margin-top: 20px;
     font-size: 30px;
 }
@@ -169,15 +171,19 @@
     height: 250px;
 }
 .header-height{
+    margin-right: 15%;
     height: 80px;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
 }
 .globalContainer{
     margin-top: 80px;
 }
 #logoColors{
     margin-left: -35px;
-    margin-top: 20px;
-    width: 110px;
+    margin-top: 15px;
+    width: 180px;
 }
 .logiciels-comp, .logiciels-sage {
     text-align: center;
