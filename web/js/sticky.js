@@ -97,8 +97,9 @@ function move(elem, initial, left) { //basic animation to slide
 function goTop(){
     var timer = setInterval(frame, 5);
     function frame() {
-        window.scrollBy(0, -30);
-        if (window.pageYOffset <= 0){
+        var position = window.pageYOffset;
+        window.scrollBy(0, -( position / 10));
+        if (window.pageYOffset <= 10){
             clearInterval(timer);
         }
     }

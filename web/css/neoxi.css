@@ -107,6 +107,8 @@ a:hover{
 /*gros texte en italique*/
 .p3{
     font-size: 32px;
+    margin-left: 40px;
+    margin-right: 40px;
     text-align: center;
     font-style: italic;
 }
@@ -119,6 +121,7 @@ a:hover{
     width: 150px;
     height: 40px;
     margin-right: 30px;
+    margin-top: 20px;
     float: right;
     background-color: #96bd2a;
     color: white;
@@ -206,7 +209,7 @@ a:hover{
     background-color: #edeeef;
     width: 98%;
     height: 40px;
-    padding-top: 0px;
+    padding-top: 0;
 }
 .buttonActuHome{ /* css for the actu button */
     position: relative;
