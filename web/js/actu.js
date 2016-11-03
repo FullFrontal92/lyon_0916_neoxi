@@ -9,7 +9,7 @@ function showActu(i) {
     }
     //we change properties to show the actu we want (i)
     var height = actuHeight[i].offsetHeight; // height of the actu
-    actu[i].style.height = height+'px'; //we past the height to the div that hide actu
+    actu[i].style.height = height + 'px'; //we past the height to the div that hide actu
     button[i].style.display = "none"; //we hide the button
 }
 /*hide and unhide buttons 'lire la suite'*/

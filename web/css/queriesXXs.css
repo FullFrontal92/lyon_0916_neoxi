@@ -3,8 +3,20 @@ h1 a{
     color: rgb(148,191,41);
 }
 .button-contact{
-    margin-top: -20px !important;
-    margin-left: 43px !important;
+    display:none;
+
+}
+.button-contactXXs{
+    display: inline;
+    font-weight: normal;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.button-contactXXs:hover {
+    text-decoration: underline;
+    background-color: white;
 }
 /* ajustemeent du formulaire */
 .form-group{ /* css pour l'espace qui englobe tout le formulaire */
@@ -13,5 +25,29 @@ h1 a{
 }
 #com{
     width: 150px;
+}
+
+
+.logiciels-comp{
+    font-size: 20px;
+}
+
+.h1 {
+    text-align: center;
+    margin-left: 0;
+}
+
+/* Adjusting actu title size on mobile */
+
+.titleNews {
+    font-size: 18px;
+}
+
+/*Adjusting cadre size for each page */
+.expert {
+    height: 210px;
+}
+.engag {
+    height: 165px;
 }
 

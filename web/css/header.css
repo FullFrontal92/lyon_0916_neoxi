@@ -105,6 +105,9 @@
 .navbar-default .navbar-toggle{
     border: 0;
 }
+.navbar-collapse{
+    border-top: none !important;
+}
 /*on positionne la navbar*/
 .margin-nav{
     -webkit-transition: 0.5s;
@@ -119,7 +122,7 @@
 /*pour que la navbar reste a droite*/
 .float-right{
     float: right;
-    margin-right: 60px;
+    margin-right: 15px;
 }
 .noPadding-left-right{
     padding-left: 0;
@@ -127,9 +130,12 @@
 }
 #logoColors{
     margin-left: -37px;
-    margin-top: 14px;
-    width: 199px;
+    margin-top: 16px;
+    width: 250px;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     transition: 0.5s;
+}
+.button-contactXXs{
+    display: none;
 }

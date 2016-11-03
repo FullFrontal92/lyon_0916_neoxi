@@ -15,7 +15,7 @@ window.onscroll = function stick(){
                 height[i].style.height = '50px';
             }
             /*we reduce size, margin of the elements accordingly*/
-            logo.style.width = '80px';
+            logo.style.width = '120px';
             logo.style.marginLeft = '-30px';
             logo.style.marginTop = '10px';
             navMargin.style.marginTop = "0";
@@ -97,8 +97,9 @@ function move(elem, initial, left) { //basic animation to slide
 function goTop(){
     var timer = setInterval(frame, 5);
     function frame() {
-        window.scrollBy(0, -30);
-        if (window.pageYOffset <= 0){
+        var position = window.pageYOffset;
+        window.scrollBy(0, -( position / 10));
+        if (window.pageYOffset <= 10){
             clearInterval(timer);
         }
     }
