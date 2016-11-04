@@ -1,4 +1,8 @@
 .mention { /* css for the legal notice text */
     text-align: center;
     margin-top: 30px;
+
+}
+.mention-marge{
+    margin-bottom: 100px;
 }
