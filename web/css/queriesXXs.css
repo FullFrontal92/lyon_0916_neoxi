@@ -50,4 +50,10 @@ h1 a{
 .engag {
     height: 165px;
 }
+.imgBureau{
+    display: none;
+}
+#infocoor{
+    width: 230px;
+}
 
