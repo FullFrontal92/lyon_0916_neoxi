@@ -120,6 +120,9 @@
 }
 /*//////*/
 /*carroussel*/
+.caroussel{ /* carousel css */
+    height: 350px;
+}
 .boutonCarroussel{
     font-size: 20px;
     padding-top: 0;
