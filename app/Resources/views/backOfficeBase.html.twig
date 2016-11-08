@@ -25,7 +25,15 @@
             <link rel="stylesheet" media="screen and (max-width: 492px)" type="text/css" href="{{ asset ('css/queriesXXs.css')}}">
         {% endblock %}
         <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-        <script>tinymce.init({ selector:'textarea' });</script>
+        <script>
+            tinymce.init({
+                selector:'textarea',
+                forced_root_block: false,
+                menubar: 'tools',
+                toolbar: 'undo redo | bold italic underline strikethrough | alignleft alignjustify | outdent indent | fontsizeselect',
+                height : 300
+        });
+        </script>
 
     </head>
     <header>
