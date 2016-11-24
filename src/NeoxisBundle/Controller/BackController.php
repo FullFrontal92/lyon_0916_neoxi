@@ -2,55 +2,55 @@
 namespace NeoxisBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use ReCaptcha\ReCaptcha;
+use Symfony\Component\HttpFoundation\Request;
 
 class BackController extends Controller
 {
-    public function swiftmailerAction($gRecaptchaResponse, $remoteIp)
+    public function swiftmailerAction(Request $request)
     {
-        $secret = '6LdkigoUAAAAAJrqN9Eyl48CMqbEqWczvPmzDXw8';
-        $recaptcha = new \ReCaptcha\ReCaptcha($secret);
-        $resp = $recaptcha->verify($gRecaptchaResponse, $remoteIp);
-        if ($resp->isSuccess()) {
+        $recaptcha = new ReCaptcha('6LdkigoUAAAAAJrqN9Eyl48CMqbEqWczvPmzDXw8');
+        $resp = $recaptcha->verify($request->request->get('g-recaptcha-response'), $request->getClientIp());
+        if (!$resp->isSuccess()) {
             // verified!
         } else {
-            $errors = $resp->getErrorCodes();
-        }
 
-        $Request = $this->getRequest();
-        if ($Request->getMethod() == "POST") {
 
-            $name = $Request->get("name");
-            $surname = $Request->get("surname");
+            $Request = $this->getRequest();
+            if ($Request->getMethod() == "POST") {
 
-            //change mail here ///////////////////////////////////////////
-            $To = 'mailneoxi@gmail.com'; //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-            //change mail here ///////////////////////////////////////////
+                $name = $Request->get("name");
+                $surname = $Request->get("surname");
 
-            $email = $Request->get("email");
-            $phone = $Request->get("phone");
-            $subject = 'Formulaire Neoxi: - '.$name.' '.$surname;
-            $message = $Request->get("message");
+                //change mail here ///////////////////////////////////////////
+                $To = 'mailneoxi@gmail.com'; //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                //change mail here ///////////////////////////////////////////
 
-            $mailer = $this->container->get('mailer');
-            $transport = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
-                ->setUsername('mailneoxi@gmail.com')
-                ->setPassword('neoximail');
-            $mailer = \Swift_Mailer::newInstance($transport);
+                $email = $Request->get("email");
+                $phone = $Request->get("phone");
+                $subject = 'Formulaire Neoxi: - ' . $name . ' ' . $surname;
+                $message = $Request->get("message");
 
-            $message = \Swift_Message::newInstance('Test')
-                ->setSubject($subject)
-                ->setFrom(array('mailneoxi@gmail.com' => 'neoxi'))
-                ->setTo($To)
-                ->setBody($email.': 
+                $mailer = $this->container->get('mailer');
+                $transport = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
+                    ->setUsername('mailneoxi@gmail.com')
+                    ->setPassword('neoximail');
+                $mailer = \Swift_Mailer::newInstance($transport);
+
+                $message = \Swift_Message::newInstance('Test')
+                    ->setSubject($subject)
+                    ->setFrom(array('mailneoxi@gmail.com' => 'neoxi'))
+                    ->setTo($To)
+                    ->setBody($email . ': 
                                   
-'.$name.' '.$surname.' - tel: '.$phone.'
+' . $name . ' ' . $surname . ' - tel: ' . $phone . '
         
-'.$message);
+' . $message);
                 $mailer->send($message);
 
-            $sended = 'Votre message à été envoyé avec succès.';
-            header('Location:/contact?sended='.$sended);
-            exit();
+                $sended = 'Votre message à été envoyé avec succès.';
+                header('Location:/contact?sended=' . $sended);
+                exit();
+            }
         }
     }
 }

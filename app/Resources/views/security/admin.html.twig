@@ -14,7 +14,7 @@
                     <div class="marginActu">
                         <div class="actuHeight col-xs-12">
                             <img class="imgFloat" src="{{ news.picture }}">
-                            <h1>{{ news.title }}</h1>
+                            <h1>{{ news.title | raw }}</h1>
                             <p><img src="{{ asset ('images/time-homePage-articles.png')}}"> {{ news.date }}</p>
                             <p class="justify">{{ news.text|raw }}</p>
                         </div>
