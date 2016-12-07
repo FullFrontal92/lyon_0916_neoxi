@@ -14,7 +14,6 @@ class BackController extends Controller
             // verified!
         } else {
 
-
             $Request = $this->getRequest();
             if ($Request->getMethod() == "POST") {
 

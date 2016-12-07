@@ -8,10 +8,7 @@ security:
                     memory:
                         users:
                             admin:
-                                password: dev
-                                roles: 'ROLE_ADMIN'
-                            dev:
-                                password: $2y$12$FaINMKn2KwlEZeS0F4/gC.grGtF0YvIlOn516EuNVTi.ZIZY1mJd6
+                                password: $2y$12$FRm9bo7UXr9ZVi4sPSgYPeeNx0eXuAKqRvpeB/ET/0jBWE9GjZs7e
                                 roles: 'ROLE_ADMIN'
     encoders:
             Symfony\Component\Security\Core\User\User:
